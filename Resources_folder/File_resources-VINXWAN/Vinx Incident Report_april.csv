@@ -1,0 +1,642 @@
+NO,TICKET,WEEK,SEVERITY,CLIENT,SITE,SOURCE,INCIDENT START,INCIDENT END,SERVICE-IMPACT START (8AM-10PM),SERVICE-IMPACT END (8AM-10PM),SERVICE DOWNTIME,ONSITE,ROOT CAUSE,REMARKS,REVISED BY
+1,198205,1,3,Wellness,Vinx::AMY::1040_AMY Nilai,Monitoring,04/01/2020 11:17:00,04/01/2020 12:16:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link is up once TM refresh session,Nathasha
+2,198274,1,3,Daiso,Vinx::Daiso::5133_Daiso Princess Cove,Monitoring,04/01/2020 23:01:00,04/01/2020 23:31:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link restored after telco reset sim and we reset network cellular,Nathasha
+3,198178,1,3,Daiso,Vinx::Daiso::5148_Daiso Viva Home,Monitoring,04/01/2020 8:02:00,04/01/2020 11:28:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link is up once TM reset port and next tier team bounced GE WAN 0,Nathasha
+4,198122,1,3,AMY,Vinx::AMY::1009_AMY Taman Universiti,Client,04/01/2020 3:38:00,04/03/2020 13:05:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up after PIC rebooted TM modem,Nathasha
+5,198137,1,3,ABG,Vinx::Aeon BIG::0021_ABG Klang,Monitoring,04/01/2020 3:31:04,04/01/2020 7:41:04,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link up once we shut/unshut the backup tunnel 130,Nathasha
+6,198110,1,3,ABG,Vinx::Aeon BIG::0021_ABG Klang,Monitoring,04/01/2020 4:34:00,04/01/2020 9:19:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link is up once TM refresh session ,Nathasha
+7,198272,1,3,AeonRocky,Vinx::Aeon Rockey::5702_Aeon Rockey Tebrau City,Client,04/01/2020 21:19:00,04/03/2020 17:01:00,,,0 days 0 hrs 0 mins ,,WAN::WAN VoIP - No Issue Found,Received escalation from user there are facing credit card terminal connection down,Nathasha
+8,198063,1,3,AMY,Vinx::AMY::1020_AMY Ampang Utara (AU2),Monitoring,04/01/2020 3:18:00,04/01/2020 5:46:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Backup link up once signal stable,Nathasha
+9,198129,1,2,AMY,Vinx::AMY::1020_AMY Ampang Utara (AU2),Monitoring,04/01/2020 5:48:00,04/01/2020 8:15:00,04/01/2020 8:00:00,04/01/2020 8:15:00,0 days 0 hrs 15 mins ,,Others::Customer - Power Outage,Links are up once power resumed,Nathasha
+12,198103,1,3,Mini Convenience Shop,Multiple Maxis Link Down | VINX WAN 6 sites (VXMA Router) and 12 sites (VXMB Router),Monitoring,04/01/2020 3:46:00,04/01/2020 7:41:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Telco Outage,"Line card had been reset and reloaded
+",Nathasha
+15,198404,1,3,Wellness,Vinx::Wellness::5017_Wellness AMY Bandaraya Melaka,Monitoring,04/02/2020 18:43:00,04/03/2020 8:26:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up after telco done reset session from their end,Nathasha
+16,198426,1,3,Wellness,Vinx::Wellness::5029_Wellness ABG Wangsa Maju,Monitoring,04/02/2020 20:27:00,04/02/2020 23:19:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,Primary link up after refresh primary tunnel interface,Nathasha
+17,198297,1,3,ABG,Vinx::Aeon BIG::0030_ABG Bukit Rimau,Monitoring,04/02/2020 3:25:00,04/02/2020 7:19:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up once telco refresh session and reset port.,Nathasha
+18,198355,1,3,Wellness,Vinx::Wellness::5079_Wellness Nilai,Monitoring,04/02/2020 13:10:00,04/02/2020 16:45:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"Link up once Telco refresh session, reset port and
+we rebooted both TM modem",Nathasha
+19,198379,1,3,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/02/2020 16:40:00,04/03/2020 12:41:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,TM modem LAN Port Faulty. Primary link up after change LAN port at TM modem from LAN1 to LAN2,Nathasha
+21,198458,1,2,ABG,Vinx::Aeon BIG::0014_ABG Sri Petaling,Client,04/03/2020 0:16:00,04/03/2020 7:47:00,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Wany
+22,198691,1,3,Wellness,Vinx::Wellness::5029_Wellness ABG Wangsa Maju,Monitoring,04/04/2020 7:15:00,04/04/2020 7:52:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,Primary link up after telco done reset port and session from their end,Wany
+23,198706,1,3,ABG,Vinx::Aeon BIG::0021_ABG Klang,Monitoring,04/04/2020 9:25:00,04/04/2020 10:17:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up after telco done reset port and session from their end,Wany
+24,198703,1,3,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/04/2020 9:13:00,04/04/2020 10:43:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Primary link up after PIC rebooted TM modem,Wany
+27,198858,1,2,Mini Convenience Shop,Vinx::Aeon::Mini Convenience Shop KB (ROHM WAKO),Monitoring,04/04/2020 19:35:00,04/04/2020 19:50:00,04/04/2020 19:35:00,04/04/2020 19:50:00,0 days 0 hrs 15 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Wany
+28,198698,1,3,Wellness,Vinx::Wellness::5029_Wellness ABG Wangsa Maju,Monitoring,04/04/2020 8:51:00,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue : Primary link unstable (intermittent)
+Update :  Primary link TM already Up & stable now. According to Alex Vinx IT, the cabling issue has been resolved on Monday, 13th April. Ticket open, pending Alex Vinx to provide the cabling part problem details.
+Latest update: 22/4/20 - Mr Alex verified, he will escalated this issue to vendor for further checking as Primary link show intermittent.
+-Currently pending Mr Alex to confirmed which Team need to arrange to check further on cabling either ABG Team or Vinx Team or Building Management Team.",Wany
+29,198848,1,3,ABG,Vinx::Aeon BIG::0037_ABG Alor Setar,Monitoring,04/04/2020 16:42:51,04/05/2020 9:47:51,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup Wired  - Modem Hang,Backup link unifi up after PIC rebooted TM modem,Wany
+30,198934,1,3,Wellness,Vinx::Wellness::5048_Wellness ABG Puchong Utama,Monitoring,04/05/2020 9:43:00,04/05/2020 11:24:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link is up once telco reset port and session,Wany
+31,198975,1,3,AMY,Vinx::AMY::1038_AMY Kempas,Monitoring,04/05/2020 15:36:00,04/05/2020 17:48:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Modem Hang,Backup link up after LTE modem rebooted,Wany
+32,198898,1,2,ABG,Vinx::Aeon BIG::0038_ABG Falim,Monitoring,04/05/2020 3:53:00,04/05/2020 4:17:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Telco Outage,Backup link having telco outages and primary link involved with internal cabling lead site total down. Site restored once backup link up after telco rectified the outages. (Primary link issue #197551),Wany
+33,198918,1,3,ABG,Vinx::Aeon BIG::0021_ABG Klang,Monitoring,04/05/2020 4:23:00,04/05/2020 5:05:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Telco Outage,Backup link up after telco rectified the outages,Wany
+34,198971,1,3,ABG,Vinx::Aeon BIG::0025_ABG Sutera Mall,Monitoring,04/05/2020 15:30:00,04/05/2020 17:48:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Modem Hang,Backup link up after LTE modem rebooted,Wany
+35,198902,1,3,ABG,Vinx::Aeon BIG::0032_ABG Puchong,Monitoring,04/05/2020 4:05:00,04/05/2020 4:41:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Telco Outage,Backup link up after telco rectified the outages,Wany
+36,198928,1,3,ABG,Vinx::Aeon BIG::0030_ABG Bukit Rimau,Monitoring,04/05/2020 7:27:00,04/05/2020 7:55:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link is up once telco reset port and session,Wany
+37,199280,2,2,Wellness,Vinx::Wellness::5054_Wellness TTDI,Monitoring,04/06/2020 15:14:00,04/07/2020 8:02:00,04/06/2020 15:14:00,04/06/2020 20:00:00,0 days 4 hrs 46 mins ,,Others::Customer - Power Outage,Site currently UP using temporary power suply. Power source get from next premise. Ticket open till issue resolved to keep track on this power failure issue.,Nathasha
+38,199342,2,3,WareHouse,Vinx::WareHouse::8010_WH KLRDC Bangi,Monitoring,04/06/2020 19:41:00,04/07/2020 2:21:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup Wired  - Session Hang,Link is up after Telco refresh session from their end ,Nathasha
+39,199350,2,3,Daiso,Vinx::Daiso::5133_Daiso Princess Cove,Monitoring,04/06/2020 20:14:00,04/06/2020 20:53:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is up after Telco reset cellular network  ,Nathasha
+40,199296,2,2,Wellness,Vinx::Wellness::5037_Wellness Taiping Mall,Monitoring,04/06/2020 16:09:00,04/06/2020 16:30:00,04/06/2020 16:09:00,04/06/2020 16:30:00,0 days 0 hrs 21 mins ,,WAN::WAN Primary - Intermittent," Link is up and stable after Telco reset port and refresh session 
+followed by TM modem rebooted.",Nathasha
+41,199374,2,3,Wellness,Vinx::Wellness::5037_Wellness Taiping Mall,Monitoring,04/06/2020 16:32:00,04/06/2020 17:46:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Primary link up after PIC rebooted TM modem,Nathasha
+42,199366,2,3,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/06/2020 21:59:00,04/06/2020 23:26:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link is up once telco reset port and session,Nathasha
+43,199403,2,2,Wellness,Vinx::Wellness::5060_Wellness Wellness Gateway@KLIA2,Monitoring,04/07/2020 0:40:00,04/07/2020 3:46:00,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Nathasha
+44,199557,2,3,Wellness,Vinx::Wellness::5029_Wellness ABG Wangsa Maju,Monitoring,04/07/2020 12:32:00,04/07/2020 12:32:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,"Issue : Primary link unstable (intermittent)
+Update : Ticket is merged with #198698 ",Nathasha
+45,199555,2,3,AMY,Vinx::AMY::1040_AMY Nilai,Monitoring,04/07/2020 12:20:00,04/07/2020 14:18:00,,,0 days 0 hrs 0 mins ,FE John - 9/4,WAN::WAN Primary - Session Hang,Primary link up after telco reset session. Monitored backup quota depleted and arrange FE onsite to change backup simcard. ,Nathasha
+46,199649,2,3,ABG,Vinx::Aeon BIG::0027_ABG Tun Hussein Onn,Monitoring,04/07/2020 17:41:00,04/07/2020 18:15:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping, Link up once Tier team bounce backup tunnel,Nathasha
+48,199423,2,3,MaxValue,Vinx::MaxValue::3017_MaxValue Selayang Mall,Monitoring,04/07/2020 2:39:00,04/07/2020 7:13:00,,,0 days 0 hrs 0 mins ,FE John - 7/4,WAN::WAN Primary - Session Hang,Primary link is up once telco reset port and session,Nathasha
+49,199854,2,3,ABG,Vinx::Aeon BIG::0034_ABG Kluang,Monitoring,04/08/2020 22:43:00,04/09/2020 9:12:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Primary link up after telco reset port and session and PIC onsite rebooted TM modem,Wany
+50,199778,2,2,Wellness,Vinx::Wellness::5054_Wellness TTDI,Monitoring,04/08/2020 15:19:00,04/08/2020 18:31:00,04/08/2020 15:19:00,04/08/2020 18:31:00,0 days 3 hrs 12 mins ,,Others::Customer - Power Outage,Link is up once power resumed (Building maintenance repaired on the electric issue),Wany
+51,199766,2,3,AMY,Vinx::AMY::1025_AMY Rawang,Monitoring,04/08/2020 13:59:00,04/08/2020 15:23:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Modem Hang,Backup link up after PIC onsite rebooted YES LTE modem,Wany
+52,199870,2,3,Daiso,Vinx::Daiso::5104_Daiso Bandar Utama,Monitoring,04/09/2020 1:02:03,04/09/2020 3:47:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Backup link up after telco performed cellular reset connection,Wany
+53,199973,2,3,Wellness,Vinx::Wellness::5018_Wellness AMY Metro Prima,Monitoring,04/09/2020 21:27:00,04/09/2020 21:54:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Backup link up after telco performed cellular reset connection,Wany
+55,200117,2,3,Wellness,Vinx::Wellness::5086_Wellness Saradise Mall,Monitoring,04/10/2020 21:28:00,04/10/2020 22:14:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is up once Telco done reset cellular network ,Nathasha
+56,200120,2,3,Wellness,Vinx::Wellness::5018_Wellness AMY Metro Prima,Monitoring,04/10/2020 22:26:00,04/11/2020 8:25:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Backup link up after telco performed cellular reset connection,Nathasha
+57,199987,2,3,Wellness,Vinx::Wellness::5018_Wellness AMY Metro Prima,Monitoring,04/10/2020 1:48:00,04/10/2020 7:19:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is up once Telco done reset cellular network ,Nathasha
+58,200065,2,3,AMY,Vinx::AMY::1025_AMY Rawang,Monitoring,04/10/2020 15:10:00,04/10/2020 15:28:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Self Restored,Nathasha
+59,200245,2,3,WareHouse,Vinx::WareHouse::8017_WH PC Shah Alam,Monitoring,04/11/2020 17:38:00,04/11/2020 17:54:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up once telco refresh session and reset port,Nathasha
+61,200145,2,3,ABG,Vinx::Aeon BIG::0039_ABG Danau Kota,Monitoring,04/11/2020 3:24:00,04/11/2020 5:40:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,Link is up after Primary link tunnel was bounced,Nathasha
+62,200256,2,3,AMY,Vinx::AMY::1035_AMY Kota Bahru,Monitoring,04/11/2020 18:00:00,04/11/2020 18:04:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link restored after telco refresh session and reset port,Nathasha
+63,200233,2,3,AMY,Vinx::AMY::1006_AMY Ipoh Kinta City,Monitoring,04/11/2020 16:52:00,04/11/2020 17:54:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link restored after telco refresh session and TM Modem rebooted.,Nathasha
+65,200385,2,3,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/12/2020 17:38:00,04/13/2020 16:55:00,,,0 days 0 hrs 0 mins ,FE Hariz - 13/4,WAN::WAN Primary - Telco Outage,Primary link monitored up once change cable at TM from LAN 2 to LAN 3,Nathasha
+67,200406,2,3,Wellness,Vinx::Wellness::Bele Time,Monitoring,04/12/2020 23:37:00,04/13/2020 5:52:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is up once Telco done reset sim and Tier team reset cellular network,Nathasha
+68,200538,3,3,ABG,Vinx::Aeon BIG::0039_ABG Danau Kota,Monitoring,04/14/2020 3:23:00,04/14/2020 4:30:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,Link is up after Primary link tunnel was bounced,Shalini
+69,200705,3,4,Wellness,Vinx::Wellness::5070_Wellness Danau Kota,Client,04/14/2020 21:53:00,04/15/2020 16:26:00,,,0 days 0 hrs 0 mins ,,Others::Customer - Application,"Root Cause: Customer - Application
+Solution: Client performed disk clean up and clear temp folder. Test download all types of file from email, all good.",Shalini
+70,200684,3,2,Wellness,Vinx::Wellness::5016_Wellness AMY Kulai Jaya,Monitoring,04/14/2020 18:33:00,04/14/2020 18:36:00,04/14/2020 18:33:00,04/14/2020 18:36:00,0 days 0 hrs 3 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+71,200559,3,2,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/14/2020 8:43:00,04/14/2020 8:46:00,04/14/2020 8:43:00,04/14/2020 8:46:00,0 days 0 hrs 3 mins ,,WAN::WAN Primary - Flapping,"Self restored and backup unable to triggered due to primary flapping in short downtime period.
+Remark: TMFE attended site confirmed that their TM modem was faulty due to lightning strike, they already replaced new TM modem. From Cisco router side, port GE WAN0 was faulty as well. Currently site running on backup YES LTE. We already request VINX Operation Team to check on building grounding/earthing (nowdays heavy rain/lightning strike). So far we still hold router replacement till VINX Operation team advise for next step action. Ticket No. Primary Link issue : 202490",Shalini
+72,200820,3,4,ABG,Vinx::Aeon BIG::0011_ABG Subang (HQ),Client,04/15/2020 11:33:00,04/18/2020 18:13:00,,,0 days 0 hrs 0 mins ,,WAN::WAN - No WAN Issue,"Issue: Apps team complaint that they unable to ping / traceroute from abg hq towards pmsuat ( 200.1.1.216 )
+Updated: Done checking Nosairis part, there is no abnormalities found. From tracert that IT Vinx Rajen request to shared, the IP address (200.1.1.216) reached our FW (10.1.5.1). ",Farhan
+73,200808,3,3,Daiso,Vinx::Daiso::5139_Daiso Evo Bangi,Monitoring,04/15/2020 10:00:00,04/15/2020 12:12:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link is up after TM modem is rebooted ,Farhan
+74,200804,3,3,AMY,Vinx::AMY::1027_AMY Sri Manjung,Monitoring,04/15/2020 8:48:00,04/15/2020 10:12:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link is up after TM modem is rebooted ,Farhan
+75,200877,3,2,Wellness,Vinx::Wellness::5077_Wellness The Spring,Monitoring,04/15/2020 17:52:00,04/15/2020 17:53:00,04/15/2020 17:52:00,04/15/2020 17:53:00,0 days 0 hrs 1 mins ,,Others::Customer - Power Outage,Link is up once power is restored ,Farhan
+76,200821,3,3,Wellness,Vinx::Wellness::5093_Wellness Selayang Mall,Monitoring,04/15/2020 11:58:00,04/15/2020 13:11:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link is up after TM modem is rebooted,Farhan
+77,200773,3,3,Aeon,Vinx::Multiple Backup link Down(19) | 4G YES LTE,Monitoring,04/15/2020 3:37:00,04/15/2020 5:02:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Telco Outage,Backup link YES LTE restored after telco rectified the issue.,Farhan
+78,200937,3,3,ABG,Vinx::Aeon BIG::0021_ABG Klang,Monitoring,04/16/2020 10:23:00,04/16/2020 12:40:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"Link restored after telco refresh session, reset port and TM Modem rebooted",Farhan
+79,200915,3,2,Daiso,Vinx::Daiso::5113_Daiso Kiara,Monitoring,04/16/2020 4:29:00,04/16/2020 6:43:00,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power is restored ,Farhan
+80,200907,3,2,Wellness,Vinx::Wellness::5073_Wellness Kiara,Monitoring,04/16/2020 3:07:00,04/16/2020 6:43:00,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power is restored ,Farhan
+81,200996,3,2,Wellness,Vinx::Wellness::5084_Wellness R&F Mall,Monitoring,04/16/2020 17:49:00,04/16/2020 18:23:00,04/16/2020 17:49:00,04/16/2020 18:23:00,0 days 0 hrs 34 mins ,,Others::Customer - Power Outage,Link is up once power is restored ,Farhan
+82,200909,3,3,Wellness,Vinx::Wellness::5087_Wellness ABG Falim,Monitoring,04/16/2020 3:25:00,04/16/2020 10:40:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Root Cause: WAN Primary - Telco Outage (Customer ELCB /Aircond in SDF room hang)
+Solution: Link restored after Reset/Off by TM & maintenance building",Farhan
+84,201029,3,3,ABG,Vinx::Aeon BIG::0039_ABG Danau Kota,Monitoring,04/17/2020 3:26:00,04/17/2020 7:34:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link is up once TM reset port ,Shalini
+85,201159,3,3,AMY,Vinx::AMY::1020_AMY Ampang Utara (AU2),Monitoring,04/17/2020 17:55:00,04/17/2020 18:37:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link up once Tier Team bounced Tunnel 7 and reset cellular.,Shalini
+86,201084,3,3,AMY,Vinx::AMY::1027_AMY Sri Manjung,Monitoring,04/17/2020 11:26:00,04/17/2020 12:59:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link is up once TM modem is rebooted ,Shalini
+87,201089,3,3,Wellness,Vinx::Wellness::5029_Wellness ABG Wangsa Maju,Monitoring,04/17/2020 12:24:00,04/17/2020 13:37:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up once TM reset port and Tier Team bounce Primary Tunnel,Shalini
+88,201135,3,3,Wellness,Vinx::Wellness::5079_Wellness Nilai,Monitoring,04/17/2020 15:56:00,04/17/2020 16:44:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up once TM done reset port and refresh session,Shalini
+89,201432,3,3,Daiso,Vinx::Daiso::5139_Daiso Evo Bangi,Monitoring,04/18/2020 21:59:00,04/27/2020 10:43:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link is monitored up once TM modem rebooted.,Shalini
+90,201238,3,3,Daiso,Vinx::Daiso::5133_Daiso Princess Cove,Monitoring,04/18/2020 5:52:00,04/18/2020 12:30:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is up once telco reset the SIM connection,Shalini
+91,201217,3,3,AMY,Vinx::AMY::1014_AMY Cheras Selatan,Client,04/17/2020 23:23:00,,,,0 days 0 hrs 0 mins ,FE John - 18/4,<Open Ticket>,"Issue: Client escalated on network slowness 
+Update: FE John has attended site and check on primary link. Upon checking,found that speed test for upload is below subscribed package. SNR reading also low.
+Have escalated to TM to arrange TMFE to check further onsite. 
+Remarks:  Site is running on backup link. Primary link has been shut. TMFE already attend the site, the upstream is low/Tested on the SNR and result showing low reading. The internal cabling having an issue. Done notify Vinx IT Network standby, pending update from them.",Shalini
+92,201222,3,3,AMY,Vinx::AMY::1020_AMY Ampang Utara (AU2),Monitoring,04/18/2020 1:33:00,04/18/2020 2:21:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link up once Tier Team had done bounced Tunnel 7 and reset cellular.,Shalini
+93,201276,3,3,AMY,Vinx::AMY::1020_AMY Ampang Utara (AU2),Monitoring,04/18/2020 12:00:00,04/18/2020 12:53:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is up via self restored,Shalini
+94,201419,3,3,Wellness,Vinx::Wellness::5091_Wellness Bele Time (Danga Bay),Monitoring,04/18/2020 19:39:00,04/18/2020 21:40:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is monitored up and stable after telco reset sim from their end,Shalini
+96,201554,3,3,ABG,Vinx::Aeon BIG::0021_ABG Klang,Monitoring,04/19/2020 12:48:00,04/19/2020 14:44:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once TM modem been rebooted,Shalini
+97,201465,3,2,Wellness,Vinx::Wellness::5013_Wellness Permas Jaya,Monitoring,04/19/2020 6:26:00,04/20/2020 14:29:00,04/19/2020 10:00:00,04/19/2020 20:00:00,0 days 10 hrs 0 mins ,,Others::Customer - Power Outage,"Root Cause:  Customer Power Outage ( due to water leakage )
+Solution: Link is monitored up after power is restored ",Shalini
+98,201612,3,2,Wellness,Vinx::Wellness::5084_Wellness R&F Mall,Monitoring,04/19/2020 16:04:00,04/20/2020 18:46:00,04/19/2020 16:04:00,04/19/2020 20:00:00,0 days 3 hrs 56 mins ,,Others::Customer - Power Outage,"Root Cause: Customer - Power Outage (at ONU)
+Solution: Link up after maintenance fixed power trip issue.",Shalini
+99,201743,4,3,Daiso,Vinx::Daiso::5121_Daiso AMY Bukit Mertajam,Monitoring,04/20/2020 12:25:00,04/20/2020 19:16:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link is up after TM modem is rebooted,Farhan
+100,201777,4,3,AMY,Vinx::AMY::1020_AMY Ampang Utara (AU2),Monitoring,04/20/2020 15:13:00,04/20/2020 20:29:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link up and stable once our Tier 2 team bounce the backup tunnel,Farhan
+101,201724,4,3,Wellness,Vinx::Wellness::5055_Wellness AMY Cheras Selatan,Monitoring,04/20/2020 8:11:00,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue: Primary Link TM, suspected faced internal wiring issue.
+Update: TMFE attend site today and verified issue involved with internal cabling
+Remark: For workaround, we setup YES LTE as Temporary Primary link. Quota still available.
+TMFE already attend the site, confirmed the internal cabling having an issue. Done notify Vinx IT Network standby, pending update from them.",Farhan
+102,201784,4,2,Wellness,Vinx::Wellness::5084_Wellness R&F Mall,Monitoring,04/20/2020 16:21:00,04/20/2020 16:21:00,04/20/2020 16:21:00,04/20/2020 16:22:00,0 days 0 hrs 1 mins ,,Others::Customer - Power Outage,Link is up once power is restored ,Farhan
+103,201726,4,3,Wellness,Vinx::Wellness::5040_Wellness AMY Intermark,Client,04/20/2020 9:41:00,04/20/2020 11:51:00,,,0 days 0 hrs 0 mins ,,WAN::WAN - No WAN Issue,"Issue: Client escalated credit card terminal having an issue previously.
+Update: Upon checking with Telco, there is no ntwork congest/line TM working fine. Followup with end user onsite, all aplication working fine and no issue with credit card terminal. Hence we proceed closed this ticket.",Farhan
+104,201792,4,3,Wellness,Vinx::Wellness::5079_Wellness Nilai,Monitoring,04/20/2020 16:49:00,04/20/2020 19:32:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up and stable once Telco refresh session & reset port,Farhan
+106,202006,4,2,Wellness,Vinx::Wellness::5068_Wellness Mahkota Parade,Monitoring,04/21/2020 11:05:00,04/21/2020 11:15:00,04/21/2020 11:05:00,04/21/2020 11:15:00,0 days 0 hrs 10 mins ,,Others::Customer - Power Outage,Link up once power resume,Farhan
+107,202318,4,3,Daiso,Vinx::Daiso::5110_Daiso Cheras Selatan,Monitoring,04/22/2020 14:07:00,04/22/2020 14:45:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link is monitored up and stable after TM reset port followed by TM modem rebooted .,Shalini
+108,202448,4,2,AMY,Vinx::AMY::1001_AMY Maluri Store,Monitoring,04/22/2020 23:42:00,4/23/2020 08:11 :00,4/23/2020 8:00:00,4/23/2020 8:11:00,0 days 0 hrs 11 mins ,,Others::Customer - Power Outage,Link up once power resume,Shalini
+109,202366,4,2,AMY,Vinx::AMY::1001_AMY Maluri Store,Monitoring,04/22/2020 17:03:00,04/22/2020 17:29:00,04/22/2020 17:03:00,04/22/2020 17:29:00,0 days 0 hrs 26 mins ,,Others::Customer - Power Outage,Link up once power resumed,Shalini
+110,202377,4,2,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/22/2020 17:47:00,04/23/2020 7:30:00,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,"Link up once power resumed
+Remarks: Premise was closed on 22/4/2020.",Shalini
+111,202301,4,3,Wellness,Vinx::Wellness::5037_Wellness Taiping Mall,Monitoring,4/22/2020 12:48 :00,4/22/2020 13:13:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link up once Tier Team done refresh backup connection,Shalini
+115,202490,4,3,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/23/2020 7:33:00,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue: Primary Link TM down after power resumed. 
+Update: TMFE attended site confirmed that their TM modem was faulty due to lightning strike, they already replaced new TM modem. From Cisco router side, port GE WAN0 was faulty as well. Currently site running on backup YES LTE. We already request VINX Operation Team to check on building grounding/earthing (nowdays heavy rain/lightning strike). So far we still hold router replacement till VINX Operation team advise for next step action.",Shalini
+118,202538,4,2,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/23/2020 16:37:00,04/23/2020 17:00:00,04/23/2020 16:37:00,04/23/2020 17:00:00,0 days 0 hrs 23 mins ,,Others::Customer - Power Outage,Link up once power resumed,Shalini
+119,202550,4,2,WareHouse,Vinx::WareHouse::8013_WH SSDC Petaling Jaya,Monitoring,04/23/2020 18:22:00,04/23/2020 18:25:00,04/23/2020 18:22:00,04/23/2020 18:25:00,0 days 0 hrs 3 mins ,,Others::Customer - Power Outage,Link up once power resumed,Shalini
+120,202893,4,2,Wellness,Vinx::Wellness::5084_Wellness R&F Mall,Monitoring,04/25/2020 10:43:00,04/25/2020 10:46:00,04/25/2020 10:43:00,04/25/2020 10:46:00,0 days 0 hrs 3 mins ,,Others::Customer - Power Outage,Link up once power resumed,Farhan
+121,203010,4,2,Wellness,Vinx::Wellness::5095_Wellness Desa Park City,Monitoring,04/25/2020 21:50:00,04/25/2020 22:55:00,04/25/2020 21:50:00,04/25/2020 22:00:00,0 days 0 hrs 10 mins ,,Others::Customer - Power Outage,Link up once power resumed,Farhan
+122,203172,4,3,Daiso,Vinx::Daiso::5106_Daiso Taman Maluri,Monitoring,04/26/2020 17:39:00,04/26/2020 18:00:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Link is up after Telco reset cellular network ,Farhan
+123,203169,4,3,MaxValue,Vinx::MaxValue::3020_MaxValue New Desa Park,Monitoring,04/26/2020 16:54:00,04/28/2020 10:21:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Root Cause: WAN Primary - Telco Outage (TM Port/Card down at MDF room) 
+Solution: Link monitored up after TM reconfigure port/card",Farhan
+124,203222,4,3,Wellness,Vinx::Wellness::5051_Wellness AMY Shah Alam,Monitoring,04/26/2020 21:49:00,04/27/2020 11:24:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Primary link up after telco reset port and PIC rebooted TM modem onsite.,Farhan
+126,203356,5,3,Daiso,Vinx::Daiso::5133_Daiso Princess Cove,Monitoring,04/27/2020 18:57:00,04/27/2020 20:04:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Backup - Flapping,Backup link is up after telco reset cellular network.,Wany
+128,203230,5,3,Wellness,Vinx::Wellness::5013_Wellness Permas Jaya,Monitoring,04/27/2020 1:15:00,04/27/2020 3:27:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Primary link Streamyx up by self restored. However, Emoney IPvalue line also down and up at the same time, thus suspected TM having activity/outages during that time.",Wany
+129,203336,5,2,MaxValue,Vinx::Wellness::5037_Wellness Taiping Mall,Monitoring,04/27/2020 16:19:00,04/27/2020 16:22:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,Primary link up by self restored.,Wany
+130,203797,5,2,Mini Convenience Shop,Vinx::Mini Convenience Shop::4301_ROHM Wako Mini Convenience Shop Kota Bahru,Monitoring,04/29/2020 15:52:00,04/29/2020 16:52:00,04/29/2020 15:52:00,04/29/2020 16:52:00,0 days 1 hrs 0 mins ,,Others::Customer - Power Outage,Link up once power resumed,Nathasha
+131,203776,5,2,AMY,Vinx::AMY::1010_AMY Permas Jaya,Monitoring,04/29/2020 14:10:22,04/29/2020 14:19:22,04/29/2020 14:10:22,04/29/2020 14:19:22,0 days 0 hrs 9 mins ,,Others::Customer - Power Outage,Link up once power resumed,Nathasha
+132,203669,5,2,AMY,Vinx::AMY::1010_AMY Permas Jaya,Monitoring,04/29/2020 9:18:22,04/29/2020 9:22:22,04/29/2020 9:18:22,04/29/2020 9:22:22,0 days 0 hrs 4 mins ,,Others::Customer - Power Outage,Link up once power resumed,Nathasha
+133,203969,5,3,MaxValue,Vinx::MaxValue::3011_MaxValue Bangi,Monitoring,04/30/2020 14:13:00,04/30/2020 15:33:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up once Telco reset port,Nathasha
+136,203961,5,2,AMY,Vinx::AMY::1012_AMY Seremban 2,Monitoring,04/30/2020 12:08:00,04/30/2020 12:37:00,04/30/2020 12:08:00,04/30/2020 12:37:00,0 days 0 hrs 29 mins ,,Others::Customer - Power Outage,Links are up once power resumed,Nathasha
+138,203968,5,3,Wellness,Vinx::Wellness::5066_Wellness Evo Bangi,Monitoring,04/30/2020 14:11:00,04/30/2020 15:31:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up once Telco reset port,Nathasha
+139,203967,5,3,Daiso,Vinx::Daiso::5139_Daiso Evo Bangi,Monitoring,04/30/2020 14:11:00,04/30/2020 15:31:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link up once Telco reset port,Nathasha
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,

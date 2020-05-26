@@ -1,0 +1,101 @@
+NO,TICKET,WEEK,SEVERITY,SITE,SOURCE,INCIDENT START,INCIDENT END,SERVICE-IMPACT START (10AM-10PM),SERVICE-IMPACT END (10AM-10PM),SERVICE DOWNTIME,ONSITE,ROOT CAUSE,REMARKS,REVISED BY
+1,192671,4,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,3/1/2020 13:49,3/1/2020 14:24,3/1/2020 13:49,3/1/2020 14:24,0 days 0 hrs 35 mins ,,WAN::WAN Primary - Session Hang,Site was total down due to primary TM session hang and backup signal was flapping. Primary link restored once TM reset port & refresh session. Backup link up via self restored.,Shalini
+2,192756,1,3,FJB::US Polo Assn::US Polo Assn (USPA) - Melawati,Monitoring,3/2/2020 9:32,3/2/2020 11:17,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"Site was total down and restored via 3G. Upon rebooted TM modem, primary link still not triggered then requested L3 to upgrade VA router firmware and proceed to rebooted VA router. Primary link triggered once VA router upgraded and rebooted.",Wany
+3,193217,1,3,FJB::SuperDry::SuperDry - Sunway Velocity,Client,3/4/2020 10:04,3/18/2020 21:39,,,0 days 0 hrs 0 mins ,"5/3 - FE Faizol
+11/3 -FE Faizol
+13/3 - FE Hafiz",WAN::WAN Router Configuration,"Root Cause: WAN Router Configuration 
+Solution: VOIP issue resolved once L2 standardize UDS config in VA router as advised by VA support Team
+
+Remarks:
+1) Analyze the issue by further troubleshooting with our respective team (Virtual Access).
+2) L2 did comparison for router configuration (UDS script) between this site with other FJB sites as per advice by respective team.
+3) L2 find out that the UDS script used for this site is different with other site, thus L2 proceed to standardize the UDS script configuration.
+4) Monitored IPSec towards FJB HQ and IPsec towards AWS (monitoring zabbix) is stable.
+5) Tested incoming/outgoing call. There is no disconnection happen for ATA phone line as per verified by end user onsite.",Farhan
+4,193161,1,2,FJB::Pretty Ballerinas::Pretty Ballerinas - The Garden,Monitoring,3/4/2020 5:44,3/4/2020 6:12,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up once TM done reset port and refresh session while backup link faced signal flapping and self restored.,Farhan
+5,193135,1,2,FJB::Guess::Guess - Pavillion,Monitoring,3/4/2020 0:16,3/4/2020 0:52,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link flapping and self restored while backup link is having signal bouncing followed by self restored as well.,Farhan
+6,193369,1,2,FJB::SuperDry::SuperDry - Gurney Plaza,Monitoring,3/5/2020 9:14,3/5/2020 9:30,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Links are up once power resumed,Shalini
+7,193369,1,2,FJB::SuperDry::SuperDry - Gurney Plaza,Monitoring,3/5/2020 9:35,3/5/2020 9:57,,,0 days 0 hrs 0 mins ,,,,
+8,193314,1,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,3/5/2020 0:32,3/5/2020 2:26,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,"Links are up once power resumed
+",Shalini
+9,193678,1,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,3/7/2020 18:18,3/7/2020 19:20,3/7/2020 18:18,3/7/2020 19:20,0 days 1 hrs 2 mins ,,WAN::WAN Primary - Modem Hang,"As for primary , th link is monitored up after reset port and reboot router. 
+For backup, the link is up via self restored",Nathasha
+10,193805,1,2,FJB::Pretty Ballerinas::Pretty Ballerinas - The Garden,Monitoring,3/8/2020 19:25,3/8/2020 19:31,3/8/2020 19:25,3/8/2020 19:31,0 days 0 hrs 6 mins ,,Others::Customer - Power Outage,"Links are up once power resumed
+",Nathasha
+11,193859,2,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,3/9/2020 10:10,3/9/2020 11:10,3/9/2020 10:10,3/9/2020 11:10,0 days 1 hrs 0 mins ,,Others::Customer - Power Outage,"Links are up once power resumed
+",Nathasha
+12,193937,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,3/9/2020 16:07,3/9/2020 16:11,3/9/2020 16:07,3/9/2020 16:11,0 days 0 hrs 4 mins ,,Others::Customer - Power Outage,"Links are up once power resumed
+",Nathasha
+13,193970,2,2,FJB::LaSenza::LaSenza - Sunway Velocity,Monitoring,3/10/2020 0:16,3/10/2020 3:52,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,"Links are up once power resumed
+",Wany
+14,193987,2,2,FJB::LaSenza::La Senza - Sunway Pyramid,Monitoring,3/10/2020 5:00,3/10/2020 5:43,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,"Links are up once power resumed
+",Wany
+15,194032,2,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,3/10/2020 11:11,3/10/2020 12:03,3/10/2020 11:11,3/10/2020 12:03,0 days 0 hrs 52 mins ,,WAN::WAN Primary - Session Hang,Primary facing session hang and backup flapped lead site total down. Link up after TM refresh session and FOT success.,Wany
+16,194352,2,3,FJB::SuperDry::SuperDry - Sunway Velocity,Client,3/12/2020 15:55,3/18/2020 21:39,,,0 days 0 hrs 0 mins ,13/3 - FE Hafiz,WAN::WAN Router Configuration,"Root Cause: WAN Router Configuration 
+Solution: Issue resolved once L2 standardize UDS config in VA router as advised by VA Support
+
+Remarks:
+1) Analyze the issue by further troubleshooting with our respective team (Virtual Access).
+2) L2 did comparison for router configuration (UDS script) between this site with other FJB sites as per advice by respective team.
+3) L2 find out that the UDS script used for this site is different with other site, thus L2 proceed to standardize the UDS script configuration.
+4) Monitored IPSec towards FJB HQ and IPsec towards AWS (monitoring zabbix) is stable.",Farhan
+17,194394,2,2,FJB::LaSenza::La Senza - Setia City Mall,Monitoring,3/12/2020 23:11,3/12/2020 23:12,3/12/2020 23:11,3/12/2020 23:12,0 days 0 hrs 1 mins ,,Others::Customer - Power Outage,"Links are up once power resumed
+",Farhan
+18,194373,2,3,FJB::Guess::Guess - Kota Bharu,Monitoring,3/12/2020 18:26,3/12/2020 18:37,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Primary link TM involved with telco outage (node cut due to cable burnt), TM link up once telco rectified the issue",Farhan
+19,194292,2,2,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,3/12/2020 5:01,3/12/2020 9:31,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,Fiber lost. Issue resolved once telco rectified the issue. Link monitor stable from our end after telco issue resolved,Farhan
+20,194369,2,2,FJB::Guess::Guess - Kota Bharu,Monitoring,3/12/2020 18:29,3/12/2020 18:34,3/12/2020 18:29,3/12/2020 18:34,0 days 0 hrs 5 mins ,,WAN::WAN Primary - Telco Outage,"PRIMARY LINK
+Root Cause: Primary link facing network outage from TM end. 
+Solution: To be follow up once outage restored on ticket number#194373
+BACKUP LINK
+Root Cause: Backup link not triggered due to primary link intermittent (TM Outage)
+Solution: PIC reboot TM modem, as they unable to access internet previously lead site total down and restored via backup",Farhan
+21,194565,2,3,FJB::Pretty Ballerinas::Pretty Ballerinas - KLCC,Monitoring,3/13/2020 20:38,3/13/2020 21:47,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link is up once TM modem and VA router rebooted.,Wany
+22,194496,2,2,FJB::SuperDry::SuperDry - Gurney Plaza,Monitoring,3/13/2020 13:36,3/13/2020 13:37,3/13/2020 13:36,3/13/2020 13:37,0 days 0 hrs 1 mins ,,WAN::WAN Primary - Modem Hang,Primary link TIME down and up after telco reset port and PIC rebooted TIME modem. Site total down for 1 min during failover to 3G. FOT success.,Wany
+23,194405,2,2,FJB::SuperDry::SuperDry - Sunway Velocity,Monitoring,3/13/2020 0:23,3/13/2020 2:55,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Links is up once power resumed,Wany
+24,194563,2,2,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,3/13/2020 21:08,3/13/2020 21:35,3/13/2020 21:08,3/13/2020 21:35,0 days 0 hrs 27 mins ,,WAN::WAN Primary - Modem Hang,Site was total down. Primary link was down due to modem hang. Link is up once Maxis modem rebooted onsite. Backup link was flapping at the same time and up via self restored.,Wany
+25,194481,2,2,FJB::TimeLab::TimeLab - Mitsui,Monitoring,3/13/2020 10:36,3/13/2020 10:38,3/13/2020 10:36,3/13/2020 10:38,0 days 0 hrs 2 mins ,,Others::Customer - Power Outage,Links is up once power resumed,Wany
+26,194820,2,2,FJB::Pretty Ballerinas::Pretty Ballerinas - The Garden,Monitoring,3/15/2020 10:22,3/15/2020 10:37,3/15/2020 10:22,3/15/2020 10:37,0 days 0 hrs 15 mins ,,WAN::WAN Primary - Modem Hang,Site was total down. Primary link was down due to modem hang. Link is up once TM reset port and rebooted TM modem onsite. Backup link was flapping at the same time and up via self restored.,Shalini
+27,194782,2,3,FJB::LaSenza::La Senza - KLCC,Monitoring,3/15/2020 0:40,3/15/2020 18:23,,,0 days 0 hrs 0 mins ,,WAN::WAN Router Configuration,Primary link is monitored up and stable after our L2 re-config the router and upgrade firmware ,Shalini
+28,194900,3,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,3/16/2020 3:06,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,Site was total down and restored via primary link once TM modem rebooted. Testing for primary link wil be conducted on 1st April.,Shalini
+29,194932,3,2,FJB::Guess::Guess - East Coast Mall,Monitoring,3/16/2020 9:49,3/16/2020 9:52,3/16/2020 9:49,3/16/2020 9:52,0 days 0 hrs 3 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+30,195247,3,2,FJB::Guess::Guess - Imago,Monitoring,3/16/2020 22:34,3/16/2020 23:10,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+31,195892,3,2,FJB::Guess::Guess - Mitsui,Monitoring,3/17/2020 22:08,3/17/2020 23:32,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+32,195888,3,2,FJB::SuperDry::SuperDry - Southkey SOGO,Monitoring,3/17/2020 21:50,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Site was total down 
+Remarks: Site is temporary closed between 18th March to 14th April 2020.",Shalini
+33,195893,3,3,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,3/17/2020 22:11,3/18/2020 16:30,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Off,Link is monitored up after Primary DSL was powered on / connected to VA router.,Shalini
+34,195508,3,2,FJB::Guess::Guess - Imago,Monitoring,3/17/2020 7:59,3/17/2020 8:05,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+35,195562,3,2,FJB::Guess::Guess - Imago,Monitoring,3/17/2020 11:38,3/17/2020 11:39,3/17/2020 11:38,3/17/2020 11:39,0 days 0 hrs 1 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+36,195682,3,2,FJB::Guess::Guess - Kid Pavillion,Monitoring,3/17/2020 19:57,3/17/2020 20:36,3/17/2020 19:57,3/17/2020 20:36,0 days 0 hrs 39 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+37,195578,3,2,FJB::Guess::Guess - Mitsui,Monitoring,3/17/2020 12:44,3/17/2020 13:03,3/17/2020 12:44,3/17/2020 12:48,0 days 0 hrs 4 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Shalini
+38,,,,FJB::Guess::Guess - Mitsui,,,,3/17/2020 12:53,3/17/2020 13:03,0 days 0 hrs 10 mins ,,,,Shalini
+39,195474,3,3,FJB::Guess::Guess - Suria KLCC,Monitoring,3/17/2020 1:25,3/17/2020 11:58,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Primary link up once rebooted Maxis modem,Shalini
+40,195472,3,2,FJB::Guess::Guess - Suria KLCC,Monitoring,3/17/2020 1:25,3/17/2020 1:30,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Site was total down and restored via backup link.Backup link up via self restored. Primary link restored once Maxis modem rebooted.(Primary link issue -195474),Shalini
+41,196050,3,3,FJB::Frederique Constant::Frederique Constant - GPO,Monitoring,3/18/2020 19:30,3/19/2020 12:01,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Off,"Primary Link Metro E was down recently due to customer power off the switch connected to Primary Metro E link.
+Solution: Primary Link Metro E up once user turn on back the switch.",Farhan
+42,195937,3,2,FJB::SuperDry::SuperDry - Gurney Plaza,Monitoring,3/18/2020 10:56,3/18/2020 11:01,3/18/2020 10:56,3/18/2020 11:01,0 days 0 hrs 5 mins ,,Others::Customer - Power Outage,Link is up once power is resumed,Farhan
+43,196179,3,2,FJB::LaSenza::La Senza - Sky Avenue,Monitoring,3/19/2020 14:57,3/19/2020 15:05,3/19/2020 14:57,3/19/2020 15:05,0 days 0 hrs 8 mins ,,WAN::WAN Primary - Session Hang,"Primary TM flapping while backup link also flapped during that time lead site total down recently. Site currently Up running Primary TM. 
+Primary TM: Self restored
+Backup Celcom 3G: Self restored",Farhan
+44,196110,3,3,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,3/19/2020 9:38,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Primary YES LTE was down currently. Telco check been done for both Telco (backup quota still available). Pending user onsite further check on YES LTE modem onsite.
+Remark: Outlet is currently off operation between and 18.03.2020 to 14.04.2020  in line with the precautionary measures by the Malaysian government",Farhan
+45,196165,3,2,FJB::Marc Jacob::Marc Jacob - Genting,Monitoring,3/19/2020 14:33,3/19/2020 14:43,3/19/2020 14:33,3/19/2020 14:43,0 days 0 hrs 10 mins ,,Others::Customer - Power Outage,Link up once power resume.,Farhan
+46,196281,3,2,FJB::Pretty Ballerinas::Pretty Ballerinas - The Garden,Monitoring,3/20/2020 0:57,3/20/2020 0:59,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Site was total down. Primary TM flapping while backup link also flapped during that time lead site total down. Site currently Up running Primary TM. 
+Primary TM: Self restored
+Backup Celcom 3G: Self restored",Shalini
+47,196678,4,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,3/23/2020 8:23,3/23/2020 8:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,"Issue: Primary Link Maxis detected intermittent and backup faced signal flapping causing multiple time site down and restored.
+Solution: Telco check been done for both ISP. Primary link and backup link self restored.
+Remark: Suspected Backup link unable to triggered due to Primary Maxis link not total down (intermittent) while for backup link we suspected signal low (premise closed). Hence we unable to further check / 1st lvl troubleshooting with end user due to Site temporary closed between 18th - 31st March (MCO). Currently we monitored the site / Primary link Maxis stable - FOT also been done and success. Hence we proceed to closed this ticket.",Farhan
+48,,,,FJB::Guess::Guess - Kid Queensbay Mall,,3/23/2020 8:33,3/25/2020 10:06,3/25/2020 9:00,3/25/2020 10:06,0 days 1 hrs 6 mins ,,,,
+49,,,,FJB::Guess::Guess - Kid Queensbay Mall,,3/25/2020 10:12,3/25/2020 10:17,3/25/2020 10:12,3/25/2020 10:17,0 days 0 hrs 5 mins ,,,,
+50,196909,4,3,FJB::Frederique Constant::Frederique Constant - GPO,Monitoring,3/24/2020 22:54,3/24/2020 22:55,,,0 days 0 hrs 0 mins ,,WAN::WAN - IPSec Issue,"Site down previously due to IPSec FC GPO hang. 
+Remark: IPSec self restored.",Farhan
+51,197164,4,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,3/26/2020 9:59,3/26/2020 10:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,"Issue: Site total down
+Remark:  Primary link was flapping and link monitored up via self-restored. Backup unable to triggered yet as it only 1 minute downtime.",Shalini
+52,197298,4,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,3/27/2020 13:46,3/27/2020 14:47,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Issue: Session were hang for the primary while backup link signal were bouncing lead site total down.
+Remark: Link is up once session refreshed and backup link is up via self restored. FOT also success.",Farhan
+53,197548,4,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,3/29/2020 0:52,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue: Primary link faced intermittent connection, backup unable to take over due to this issue.
+Remark: Telco check been done, pending user onsite to reboot Maxis Modem to avoid Maxis link intermittent connection. Site is temporary closed between 18th March to 14th April 2020.",Farhan
+54,197669,1,3,FJB::SuperDry::Superdry - Midvalley,Monitoring,3/30/2020 4:30,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue: Primary link down,
+Remark: Telco check been done, pending user onsite to reboot TM Modem. Site is temporary closed between 18th March to 14th April 2020.",Wany
+55,197661,1,4,Non - Service Interruption Notification - Unable to Ping to FJB Servers,Monitoring,3/30/2020 3:16,3/30/2020 4:43,,,0 days 0 hrs 0 mins ,,Others::Customer - Maintenance,"As verified with Mr Chew from FJB, the server (210.24.39.24) scheduled to restart or maintenance during that time caused multiple store unable to ping towards that server. Random sites tested pingable to that server once maintenance completed.",Wany
+56,197755,1,2,FJB::Guess::Guess - The Garden,Monitoring,3/31/2020 6:23,3/31/2020 10:01,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,Primary link resolved once telco rectified the issue and L3 upgrade firmware for VA router. FOT success.,Wany

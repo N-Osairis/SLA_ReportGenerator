@@ -1,0 +1,428 @@
+NO,TICKET,WEEK,SEVERITY,State,SITE,SOURCE,INCIDENT START,INCIDENT END,SERVICE-IMPACT START,SERVICE-IMPACT END,SERVICE DOWNTIME,ONSITE,DESCRIPTION,ROOT CAUSE,REMARKS,REVISED BY
+1,198275,1,1,Selangor,PMP::B034::dmcm20092av & dmcm20092bv,Monitoring,4/1/2020 23:15,4/1/2020 23:55,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+2,198279,1,1,Perak,PMP::A011::dmcm20252av & dmcm20252bv,Monitoring,4/1/2020 23:41,4/1/2020 23:44,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+3,198252,1,2,Penang,PMP::P020::dmcm20305av,Monitoring,4/1/2020 17:56,4/1/2020 18:41,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - High Latency,Link is up once telco reset cellular network and we performed remotely power cycle AV router,Nathasha
+4,198114,1,1,Penang,PMP::P027::dmcm20310av & dmcm20310bv,Monitoring,4/1/2020 4:52,4/1/2020 6:20,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+5,198236,1,1,Perak,PMP::A008::dmcm20249av & dmcm20249bv,Monitoring,4/1/2020 16:49,4/1/2020 16:52,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+6,198076,1,3,Johor,PMP::J030::dmcm20234bv,Monitoring,4/1/2020 3:43,4/1/2020 6:37,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Celcom),NTS::WAN Wireless - Flapping,Link up once Telce reset the network cellular,Nathasha
+7,198040,1,1,Selangor,PMP::B018::dmcm20017av & dmcm20017bv,Monitoring,4/1/2020 0:26,4/1/2020 0:31,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,Link is up via self restored,Nathasha
+8,198102,1,1,,"Multiple Maxis Link Down | PMP 15 sites (BV Router ) and 1 site (AV Router)
+",Monitoring,4/1/2020 3:40,4/1/2020 7:10,,,0 days 0 hrs 0 mins ,,BV Router Down,NTS::WAN Wireless - Telco Outage,Line card had been reset and reloaded,Nathasha
+9,198413,1,1,KL,PMP::W092::dmcm20053av & dmcm20053bv,Monitoring,4/2/2020 19:20,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: : Site temporary closed between 18th march - 12th May 2020.",Nathasha
+10,198367,1,1,Perak,PMP::A014::dmcm20035av & dmcm20035bv,Monitoring,4/2/2020 15:23,4/2/2020 14:23,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+11,198307,1,3,Penang,PMP::P039::dmcm20320bv,Monitoring,4/2/2020 5:44,4/2/2020 6:35,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Digi),NTS::WAN Wireless - Flapping,Link up once Telce reset the network cellular,Nathasha
+12,198362,1,1,Johor,PMP::J018::dmcm20224av,Monitoring,4/2/2020 13:46,4/2/2020 15:20,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Links are up once power resumed,Nathasha
+13,198371,1,1,Perak,PMP::A022::dmcm20259av & dmcm20259bv,Monitoring,4/2/2020 15:31,4/3/2020 9:09,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+14,198375,1,1,Perak,PMP::A046::dmcm20281av & dmcm20281bv,Monitoring,4/2/2020 15:39,4/6/2020 11:36,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+15,198369,1,1,Perak,PMP::A050::dmcm20285av & dmcm20285bv,Monitoring,4/2/2020 15:30,4/6/2020 11:43,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+16,198366,1,1,Perak,PMP::A035::dmcm20272av & dmcm20272bv,Monitoring,4/2/2020 15:21,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: : Site temporary closed between 18th march - 12th May 2020.",Nathasha
+17,198299,1,1,Perak,PMP::A042::dmcm20277av & dmcm20277bv,Monitoring,4/2/2020 4:26,4/2/2020 6:15,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+18,198405,1,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/2/2020 18:51,4/2/2020 18:53,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Self Restored
+AV wireless flapping (2 minutes) and self restored, 
+BV wireless unable to take over due to short period of downtime AV router. 
+Thus, lead to site went total down",Nathasha
+19,198345,1,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/2/2020 12:14,4/2/2020 12:17,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Self Restored
+AV wireless flapping (2 minutes) and self restored, 
+BV wireless unable to take over due to short period of downtime AV router. 
+Thus, lead to site went total down",Nathasha
+20,198543,1,3,KL,PMP::V021::dmcm20344av,Monitoring,4/3/2020 10:54,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary AV DSL down. Have reset port and bounce tunnel been done. Pending PMP to reboot TM modem.
+Update: Site currently up via AV wireless (quota still available).
+Remark: Site temporary closed between 18th march - 12th May 2020.",Wany
+21,198624,1,1,Perak,PMP::A060::dmcm30004av & dmcm30004bv,Monitoring,4/3/2020 17:05,4/4/2020 10:11,,,0 days 0 hrs 0 mins ,,Site Total Down (Operation Hours),NTS::WAN Wired - Session Hang,"Link is up after telco reset session, suspected wired session hang while AV cellular and BV cellular signal flapped suspected due to outlet closed.",Wany
+22,198560,1,1,Perak,PMP::A010::dmcm20251av & dmcm20251bv,Monitoring,4/3/2020 12:41,4/6/2020 10:59,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Wany
+23,198558,1,2,KL,PMP::W052::dmcm20145av,Monitoring,4/3/2020 12:35,4/4/2020 18:32,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - High Latency,Issue resolved after telco performed reset cellular network and remotely rebooted AV router.,Wany
+24,198460,1,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/3/2020 0:26,4/3/2020 0:33,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,Self Restored. AV wireless flapping (7 minutes) and self restored.,Wany
+25,198623,1,1,Perak,PMP::A011::dmcm20252av & dmcm20252bv,Monitoring,4/3/2020 17:03,4/4/2020 7:38,,,0 days 0 hrs 0 mins ,,Site Total Down (Operation Hours),Customer::Power Outage,Link is up once power resume,Wany
+26,198735,1,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/4/2020 11:19,4/4/2020 11:21,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Self Restored. AV wireless flapping (2 minutes) and self restored, BV wireless unable to take over due to short period of downtime AV router. Thus, lead to site went total down.",Wany
+27,198808,1,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/4/2020 16:54,4/4/2020 16:56,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Self Restored. AV wireless flapping (2 minutes) and self restored, BV wireless unable to take over due to short period of downtime AV router. Thus, lead to site went total down.",Wany
+28,198855,1,1,KL,PMP::W080::dmcm20171av & dmcm20171bv,Monitoring,4/4/2020 19:16,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+29,198864,1,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/4/2020 20:34,4/4/2020 20:41,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,Self Restored. AV wireless flapping (7 minutes) and self restored.,Wany
+30,198870,1,1,KL,PMP::W074::dmcm20165av & dmcm20165bv,Monitoring,4/4/2020 20:05,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+31,198935,1,1,Johor,PMP::J043::dmcm20243av & dmcm20243bv,Monitoring,4/5/2020 10:09,4/5/2020 12:08,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Wany
+32,198996,1,1,Perak,PMP::A045::dmcm20280av & dmcm20280bv,Monitoring,4/5/2020 17:33,4/5/2020 17:45,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Wany
+33,198953,1,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/5/2020 12:16,4/6/2020 9:51,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resume,Nathasha
+34,199187,2,1,Kedah,PMP::K005::dmcm20047av & dmcm20047bv,Monitoring,4/6/2020 12:25,4/6/2020 12:26,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wired - Intermittent,"The link is up once signal stable. 
+Remarks: Site total down (1 min) due to WAN Primary down (Ticket#199190) & fail-over to
+backup link failed due to signal for AV and BV wireless is bouncing. ",Nathasha
+35,199201,2,3,KL,PMP::W007::dmcm20000av,Monitoring,4/6/2020 12:39,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary link affected due to telco issue.
+Update: Telco issue resolved. Primary link still down.Pending PMP to reboot TM modem. 
+Remark: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+36,199161,2,3,Perak,PMP::A056::dmcm20036av,Monitoring,4/6/2020 9:46,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary link affected due to telco issue.
+Update: Telco issue resolved. Primary link still down.Pending PMP to reboot TM modem. 
+Remark: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+37,199089,2,3,KL,PMP::W057::dmcm20150av,Monitoring,4/6/2020 9:24,4/7/2020 0:11,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link up once Telco rectified the issue,Nathasha
+38,199321,2,3,KL,PMP::W082::dmcm20173av,Monitoring,4/6/2020 17:25,4/6/2020 9:47,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage, Link is up once Telco rectified the issue,Nathasha
+39,199114,2,3,KL,PMP::W087::dmcm20178av,Monitoring,4/6/2020 10:36,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary link affected due to telco issue.
+Update: Telco issue resolved. Primary link still down.Pending PMP to reboot TM modem. 
+Remark: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+40,199156,2,3,Perak,PMP::A046::dmcm20281av,Monitoring,4/6/2020 11:36,4/6/2020 11:37,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Intermittent,Link is up via self restored,Nathasha
+41,199073,2,3,KL,PMP::V008::dmcm20015av,Monitoring,4/6/2020 8:16,4/7/2020 9:28,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+42,199238,2,3,KL,PMP::W030::dmcm20128av,Monitoring,4/6/2020 13:32,4/7/2020 0:10,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+43,199363,2,1,Perak,PMP::A010::dmcm20251av & dmcm20251bv,Monitoring,4/6/2020 21:41,4/6/2020 21:47,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Nathasha
+44,199072,2,3,KL,PMP::B023::dmcm20055av,Monitoring,4/6/2020 8:13,4/6/2020 10:29,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+45,199060,2,3,KL,PMP::B023::dmcm20055av,Monitoring,4/6/2020 7:34,4/6/2020 7:44,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Intermittent,Link is up via self restored,Nathasha
+46,199228,2,3,KL,PMP::W065::dmcm20156av,Monitoring,4/6/2020 13:18,4/7/2020 5:54,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+47,199082,2,3,KL,PMP::V001::dmcm20012av,Monitoring,4/6/2020 8:57,4/7/2020 6:47,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+48,199294,2,1,KL,PMP::V001::dmcm20012av & dmcm20012bv,Monitoring,4/6/2020 16:06,4/7/2020 0:01,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+49,199056,2,1,KL,PMP::W032::dmcm20130av,Monitoring,4/6/2020 7:11,4/7/2020 0:02,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+50,199040,2,3,Johor,PMP::JB03::dmcm30006av,Monitoring,4/6/2020 0:33,4/6/2020 5:27,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+52,199274,2,3,Perak,PMP::A014::dmcm20035av,Monitoring,4/6/2020 14:22,4/6/2020 11:49,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+53,199126,2,3,KL,PMP::W070::dmcm20161av,Monitoring,4/6/2020 10:59,4/7/2020 12:12,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+54,199039,2,3,Kedah,PMP::K010::dmcm20082av,Monitoring,4/6/2020 2:06,4/6/2020 23:50,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+55,199090,2,1,Perak,PMP::A056::dmcm20036av & dmcm20036bv,Monitoring,4/6/2020 9:28,4/6/202011:03:51,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed.,Nathasha
+56,199057,2,3,KL,PMP::W012::dmcm20114av,Monitoring,4/6/2020 7:13,4/7/2020 4:38,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+57,199055,2,3,KL,PMP::W022::dmcm20122av,Monitoring,4/6/2020 7:02,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary link affected due to telco issue.
+Update: Telco issue resolved. Primary link still down.Pending PMP to reboot TM modem. 
+Remark: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+58,199253,2,3,KL,PMP::W047::dmcm20141av,Monitoring,4/6/2020 12:12,4/7/2020 10:05,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+59,199318,2,1,Melaka,PMP::M054::dmcm20330av & dmcm20330bv,Monitoring,4/6/2020 17:12,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+60,199190,2,3,Kedah,PMP::K005::dmcm20047av,Monitoring,4/6/2020 12:26,4/7/2020 7:11,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Telco Outage,Link is up once Telco rectified the issue,Nathasha
+61,199680,2,1,Penang,"PMP::P030::dmcm20313av & dmcm20313bv
+",Monitoring,4/7/2020 19:33,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+62,199538,2,1,Kedah,PMP::K004::dmcm20048av & dmcm20048bv,Monitoring,4/7/2020 10:24,4/7/2020 10:27,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed.,Nathasha
+63,199570,2,3,Klang,PMP::B034::dmcm20092av,Monitoring,4/7/2020 13:23,4/11/2020 18:29,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Modem Hang,"Root Cause: WAN Wired - Modem Hang
+Solution: Primary DSL restored once Tier 2 team remotely rebooted AV router.
+Remarks: TM has done refresh session, reset port & our Tier 2 team has bounce primary DSL tunnel but failed to bring up the connection. Both AV Wired & High latency issue (AV Wireless) resolved once Tier 2 team remotely rebooted AV router.",Nathasha
+64,199641,2,1,KL,PMP::V001::dmcm20012av & dmcm20012bv,Monitoring,4/7/2020 17:14,4/9/2020 18:06,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed.,Nathasha
+65,199577,2,3,KL,PMP::W016::dmcm20003av,Monitoring,4/7/2020 14:28,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: TM link down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+66,199614,2,3,KL,PMP::V000::dmcm20187bv,Monitoring,4/7/2020 14:15,4/7/2020 15:51,,,0 days 0 hrs 0 mins ,,BV Router Down,<Open Ticket>,Remarks: Ticket were closed and merged into ticket : #197353 ,Nathasha
+67,199507,2,1,KL,PMP::W045::dmcm20139av & dmcm20139bv ,Monitoring,4/7/2020 8:01,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site is monitored total down
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+68,199692,2,1,Perak,PMP::A045::dmcm20280av & dmcm20280bv,Monitoring,4/7/2020 21:11,4/8/2020 17:25,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed.,Nathasha
+69,199690,2,1,KL,PMP::W010::dmcm20113av & dmcm20113bv,Monitoring,4/7/2020 21:05,4/9/2020 12:22,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed.,Nathasha
+70,199575,2,3,KL,PMP::W094::dmcm20011av,Monitoring,4/7/2020 14:25,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: TM link down
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+71,199567,2,3,KL,PMP::KL01::dmcm30001av,Monitoring,4/7/2020 13:18,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: TM link down
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+72,199401,2,1,KL,PMP::W097::dmcm20185av & dmcm20185bv,Monitoring,4/7/2020 0:26,4/7/2020 0:28,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed.,Nathasha
+73,199732,2,3,Kedah,PMP::K004::dmcm20048av,Monitoring,4/8/2020 8:09,4/9/2020 10:10,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Modem Hang,Site facing power outage issue previously (Ticket#200988). Link restored once power resumed.,Wany
+74,199748,2,1,Penang,PMP::P011::dmcm20297av & dmcm20297bv,Monitoring,4/8/2020 10:42,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site is monitored total down
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+75,199862,2,1,Selangor,PMP::B034::dmcm20092av & dmcm20092bv,Monitoring,4/8/2020 23:40,4/8/2020 23:47,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,Site monitored total down and restored via AV cellular (7 minutes). Suspected AV wireless flapping and BV wireless unable to take over due to short period of downtime AV router. As of wired DSL was down (#199570),Wany
+76,199752,2,1,Selangor,PMP::B034::dmcm20092av & dmcm20092bv,Monitoring,4/8/2020 10:56,4/8/2020 11:01,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,Site total down and restored via AV cellular (5 minutes). Suspected AV wireless flapping and BV wireless unable to take over due to short period of downtime AV router. As of wired DSL was down (#199570),Wany
+77,199802,2,1,Perak,PMP::A057::dmcm20291av & dmcm20291av,Monitoring,4/8/2020 17:14,4/8/2020 17:35,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Wany
+78,199785,2,3,Selangor,PMP::B024::dmcm20059av,Monitoring,4/8/2020 15:55,4/8/2020 16:00,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: TM link down
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+79,199918,2,3,KL,PMP::W010::dmcm20113av,Monitoring,4/9/2020 12:23,4/9/2020 18:44,,,0 days 0 hrs 0 mins ,,AV Cellular Down (Maxis),NTS::WAN Wireless - Flapping,AV wireless up after telco reset cellular connection and performed remotely power cycle AV router,Wany
+80,199953,2,3,Selangor,PMP::B031::dmcm20088bv,Monitoring,4/9/2020 17:37,4/9/2020 20:26,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Maxis),NTS::WAN Wireless - Flapping,AV wireless up after telco reset cellular connection and performed remotely power cycle AV router,Wany
+81,199869,2,3,Johor,PMP::J040::dmcm20025av,Monitoring,4/8/2020 8:00,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: TM link down
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+82,199867,2,3,Perak,PMP::A058::dmcm20292av,Monitoring,4/8/2020 16:45,4/10/2020 8:20,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link up once Telco reset the port,Nathasha
+83,200073,2,1,Selangor,PMP::B034::dmcm20092av & dmcm20092bv,Monitoring,4/10/2020 15:46,4/10/2020 15:49,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - High Latency,"AV wireless were up once respective team bounce cellular interface
+BV wireless unable to trigger due to short downtime (3 min)
+Remarks : AV Wired having issue (Single-leg failure#199570) and AV Wireless facing high latency and
+lead to total down.",Nathasha
+84,200026,2,3,Selangor,PMP::B023::dmcm20055av,Monitoring,4/10/2020 11:05,4/11/2020 21:57,,,0 days 0 hrs 0 mins ,,AV Router Down,NTS::WAN Wired - High Latency,Link is up and stable once TM reset port and TNS bounce tunnels of DSL connection ,Nathasha
+85,200006,2,1,Pahang,PMP::V022::dmcm20345av & dmcm20345bv,Monitoring,4/10/2020 8:31,4/10/2020 8:34,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Solution: Self-restored
+Remarks: AV backup wireless is flapping (3 minutes) & BV backup wireless unable to trigger due to short period of downtime.",Nathasha
+86,200002,2,1,Selangor,PMP::B047::dmcm20106av & dmcm20106bv,Monitoring,4/10/2020 7:50,4/10/2020 7:53,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Nathasha
+87,200079,2,3,Penang,PMP::P043::dmcm20043av,Monitoring,4/10/2020 16:38,4/11/2020 23:41,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang, Link is up once TM reset port and bounce AV wired tunnels ,Nathasha
+88,200269,2,3,Melaka,PMP::M056::dmcm20332av,Monitoring,4/11/2020 19:09,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down 
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+89,200272,2,3,KL,PMP::V006::dmcm20190av,Monitoring,4/11/2020 19:35,4/11/2020 23:01,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is up after Telco reset port and refresh session followed by bouncing the AV wired tunnels,Nathasha
+90,200171,2,3,Perak,PMP::A033::dmcm20270av,Monitoring,4/11/2020 10:56,4/12/2020 12:36,,,0 days 0 hrs 0 mins ,,AV Router Down,NTS::WAN Wired - Modem Hang,"Root Cause: WAN Wired - Modem Hang
+Solution: Resolved after AV router rebooted (recently site faced power outage ticket #200339).
+Remarks: Telco had done refresh session, reset port & our Tier 2 team had  perform network cellular for AV Wireless to 
+bring up AV but failed. Reset SIM network for Maxis also unable to bring up the connection. AV Wireless issue solved after
+AV router rebooted (Power resumed).",Nathasha
+91,200168,2,1,Perak,PMP::A033::dmcm20270av & dmcm20270bv,Monitoring,4/11/2020 10:46,4/11/2020 10:49,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Nathasha
+92,200175,2,1,Selangor,PMP::B047::dmcm20106av & dmcm20106bv,Monitoring,4/11/2020 11:29,4/11/2020 11:34,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Nathasha
+93,200335,2,3,Selangor,PMP::W046::dmcm20140av,Monitoring,4/12/2020 12:05,4/18/2020 8:45,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is monitored up after telco reset port,Nathasha
+94,200339,2,1,Perak,PMP::A033::dmcm20270av & dmcm20270bv,Monitoring,4/12/2020 12:34,4/12/2020 12:37,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Nathasha
+95,200310,2,3,Perak,PMP::A060::dmcm30004bv,Monitoring,4/12/2020 3:47,,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Maxis),<Open Ticket>,"Issue: BV Router down
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+96,200345,2,3,KL,PMP::W011::dmcm20001av,Monitoring,4/12/2020 12:56,4/12/2020 14:02,,,0 days 0 hrs 0 mins ,,AV Router Down,NTS::WAN Wired - Session Hang,"Link up once Telco refresh session, reset port and our Tier 2 team bounce the primary DSL tunnel",Nathasha
+97,200391,2,1,Perak,PMP::A010::dmcm20251av & dmcm20251bv,Monitoring,4/12/2020 19:19,4/12/2020 19:25,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Nathasha
+98,200524,3,1,Perak,PMP::A037::dmcm20039av & dmcm20039bv,Monitoring,4/13/2020 21:26,4/14/2020 13:24,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+99,200505,3,1,Selangor,PMP::B034::dmcm20092av & dmcm20092bv,Monitoring,4/13/2020 17:42,4/15/2020 8:35,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+100,200521,3,1,Selangor,PMP::B040::dmcm20102av & dmcm20102bv,Monitoring,4/13/2020 21:05,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+101,200490,3,3,Penang,PMP::P036::dmcm20318av,Monitoring,4/13/2020 14:54,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+102,200418,3,3,KL,PMP::V002::dmcm20013av,Monitoring,4/13/2020 0:02,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+103,200455,3,1,Perak,PMP::A059::dmcm20293av & dmcm20293bv,Monitoring,4/13/2020 10:41,4/13/2020 10:44,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+104,200481,3,1,Perak,PMP::A059::dmcm20293av & dmcm20293bv,Monitoring,4/13/2020 14:05,4/13/2020 14:08,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+105,200452,3,1,Selangor,PMP::V003::dmcm20014av & dmcm20014bv,Monitoring,4/13/2020 10:31,4/13/2020 12:39,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+106,200504,3,3,Selangor,PMP::B023::dmcm20055av,Monitoring,4/13/2020 17:19,4/13/2020 18:37,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is up once TM reset the port and next tier team bounce tunnels 5 & 6 ,Shalini
+107,200510,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/13/2020 18:29,4/13/2020 18:58,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Link is monitored up once AV and BV wireless signal stable. Site was total down previously due to AV & BV wireless flapped due to outlet is closed currently.
+Update: Primary DSL link is down (#200525). Site is up via AV wireless.",Shalini
+108,200525,3,3,Selangor,PMP::B044::dmcm20104av,Monitoring,4/13/2020 8:43,4/18/2020 7:42,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is monitored up after telco reset port,Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 8:19,4/14/2020 8:22,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 9:03,4/14/2020 9:04,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 9:45,4/14/2020 9:47,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 10:31,4/14/2020 10:32,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 11:07,4/14/2020 11:09,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 11:37,4/14/2020 11:39,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 11:47,4/14/2020 11:49,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 11:57,4/14/2020 11:59,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 12:09,4/14/2020 12:11,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 12:21,4/14/2020 12:23,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 12:32,4/14/2020 12:33,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 12:53,4/14/2020 12:56,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 13:08,4/14/2020 13:09,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 13:19,4/14/2020 13:21,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 13:49,4/14/2020 13:52,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+109,200557,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 14:54,4/14/2020 14:56,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Intermittent,"Primary Wired down (#200525) and site running on AV wireless but intermittent, lead site total down.
+Remark: AV wireless monitored stable once telco reset sim network.",Shalini
+110,200683,3,2,Johor,PMP::J034::dmcm20236av,Monitoring,4/14/2020 18:33,4/17/2020 12:54,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - High Latency,"Issue: Site facing high latency (frequently)
+Update: Site running on dual 3G. Primary link not yet installed. 
+Link is monitored up after telco reset sim and swing back the connection to AV wireless after signal stable",Shalini
+111,200712,3,3,N.Sembilan,PMP::N011::dmcm20071av,Monitoring,4/14/2020 21:33,4/14/2020 21:33,,,0 days 0 hrs 0 mins ,,AV Cellular Down (Maxis),NTS::WAN Wireless - Flapping,Link monitored up after telco reset sim and tier team reset cellular interface,Shalini
+112,200711,3,3,Selangor,PMP::W083::dmcm20174av,Monitoring,4/13/2020 9:50,4/18/2020 8:59,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is monitored up after telco reset the port,Shalini
+113,200610,3,1,Melaka,PMP::M061::dmcm20336av & dmcm20336bv,Monitoring,4/14/2020 12:59,4/14/2020 13:11,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+114,200679,3,1,Melaka,PMP::M061::dmcm20336av & dmcm20336bv,Monitoring,4/14/2020 18:10,4/14/2020 18:23,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+115,200696,3,1,N.Sembilan,PMP::N011::dmcm20071av & dmcm20071bv,Monitoring,4/14/2020 21:04,4/14/2020 21:26,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Shalini
+116,200541,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 4:07,4/14/2020 4:10,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Link is monitored up once AV and BV wireless signal stable. Site was total down previously due to AV & BV wireless flapped due to outlet is closed currently.
+Update: Primary DSL link is down (#200525). Site is up via AV wireless. ",Shalini
+117,200552,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/14/2020 7:03,4/14/2020 7:04,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Link is monitored up once AV and BV wireless signal stable. Site was total down previously due to AV & BV wireless flapped due to outlet is closed currently.
+Update: Primary DSL link is down (#200525). Site is up via AV wireless. ",Shalini
+118,200885,3,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/15/2020 20:24,4/16/2020 10:23,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+119,200860,3,1,Perak,PMP::A010::dmcm20251av & dmcm20251bv,Monitoring,4/15/2020 16:10,4/15/2020 16:17,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+120,200722,3,1,Perak,PMP::A051::dmcm20286av & dmcm20286bv,Monitoring,4/15/2020 0:51,4/15/2020 0:54,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+121,200720,3,3,Selangor,PMP::W077::dmcm20168av,Monitoring,3/5/2020 5:34,4/15/2020 1:35,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,"Link up once TM refresh session, followed by tier 2 team remotely reboot AV router",Farhan
+122,200970,3,1,Perak,PMP::A022::dmcm20259av & dmcm20259bv,Monitoring,4/16/2020 16:28,4/17/2020 7:55,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+123,200965,3,3,Perak,PMP::A030::dmcm20267av,Monitoring,4/16/2020 13:48,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: AV wired down
+Update: Follow up PMP Support to reboot the TM Modem once premise open. Backup AV wireless quota still available.
+Remark: Site temporary closed between 18th march - 12th May 2020.",Farhan
+124,200967,3,1,Perak,PMP::A034::dmcm20271av & dmcm20271bv,Monitoring,4/16/2020 16:24,4/18/2020 9:55,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+125,200969,3,1,Perak,PMP::A042::dmcm20277av & dmcm20277bv,Monitoring,4/16/2020 16:28,4/21/2020 8:47,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+126,200975,3,1,Perak,PMP::A050::dmcm20285av & dmcm20285bv,Monitoring,4/16/2020 16:39,4/20/2020 13:02,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+127,201012,3,3,Perak,PMP::A057::dmcm20291bv,Monitoring,4/16/2020 17:06,,,,0 days 0 hrs 0 mins ,,BV Router Down,<Open Ticket>,"Issue: BV router down after power resume.
+Update: Telco check been done, suspected BV router still faced power issue. Followup with PMP Support once premise open to check on power status BV router.
+Remark: Site temporary closed between 18th march - 12th May 2020.",Farhan
+128,200938,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/16/2020 10:27,4/16/2020 10:28,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Root cause: Site total down due to AV Wired having issue (Single-leg failure #200525) and AV Wireless is flapping while BV wireless unable to trigger due to short period of downtime (1 min).
+Solution: AV Wireless issue resolved once Tier 2 team perform network cellular reset and Telco Celcom reset the SIM network.",Farhan
+129,200899,3,1,Penang,PMP::P037::dmcm20044av & dmcm20044bv,Monitoring,4/16/2020 0:46,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+130,201000,3,1,KL,PMP::W010::dmcm20113av & dmcm20113bv,Monitoring,4/16/2020 19:56,4/17/2020 11:07,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+131,201008,3,1,KL,PMP::W064::dmcm20155av & dmcm20155bv,Monitoring,4/16/2020 20:51,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+132,201013,3,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/16/2020 21:25,4/17/2020 9:42,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power resumed,Farhan
+133,200887,3,1,Perak,PMP::A005::dmcm20247av & dmcm20247bv,Monitoring,4/16/2020 0:01,4/16/2020 0:18,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Farhan
+134,200958,3,1,Perak,PMP::A030::dmcm20267av & dmcm20267bv,Monitoring,4/16/2020 13:48,4/16/2020 13:53,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Farhan
+135,200981,3,1,Perak,PMP::A057::dmcm20291av & dmcm20291av,Monitoring,4/16/2020 17:06,4/16/2020 17:31,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Farhan
+136,200988,3,1,Kedah,PMP::K004::dmcm20048av & dmcm20048bv,Monitoring,4/16/2020 17:32,4/16/2020 17:35,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Farhan
+137,200920,3,3,Kedah,PMP::K013::dmcm20327bv,Monitoring,4/16/2020 5:32,4/16/2020 14:06,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Celcom),NTS::WAN Wireless - Flapping,Link is monitored up after Telco reset sim network ,Farhan
+138,200889,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/16/2020 0:12,4/16/2020 0:14,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Root cause: Site total down due to AV wired having issue (Single-leg failure #200525) and AV Wireless is flapping while BV wireless unable to trigger due to short period of downtime (2 min).
+Solution: AV Wireless issue self restored and monitored stable.",Farhan
+139,200928,3,1,Selangor,PMP::B044::dmcm20104av & dmcm20104bv,Monitoring,4/16/2020 8:42,4/16/2020 8:43,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Root cause: Site total down due to AV wired having issue (Single-leg failure #200525) and AV Wireless is flapping while BV wireless unable to trigger due to short period of downtime (1 min).
+Solution: AV Wireless issue self restored and monitored stable.",Farhan
+140,200894,3,3,N.Sembilan,PMP::N012::dmcm20072bv,Monitoring,4/16/2020 0:17,4/16/2020 0:41,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Digi),NTS::WAN Wireless - Flapping,Link is monitored up after Telco reset sim network ,Farhan
+141,200902,3,3,Johor,PMP::J024::dmcm20228bv,Monitoring,4/16/2020 0:59,4/16/2020 1:50,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Digi),NTS::WAN Wireless - Telco Outage,Link is up once Telco rectified the issue,Farhan
+142,201054,3,3,Perak,PMP::A022::dmcm20259av,Monitoring,4/17/2020 8:01,4/23/2020 7:51,,,0 days 0 hrs 0 mins ,,AV Cellular Down (Maxis),NTS::WAN Wireless - Flapping,"Issue: AV Wireless down
+Link up once Telco done reset sim from their end",Shalini
+143,201141,3,1,Perak,PMP::A022::dmcm20259av & dmcm20259bv,Monitoring,4/17/2020 16:22,4/21/2020 8:00,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,"Link up once power resumed.
+Remark: AV wireless still down (Ticket #201054).",Shalini
+144,201202,3,3,Johor,PMP::J012::dmcm20219av,Monitoring,4/16/2020 16:09,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+145,201150,3,3,Kedah,PMP::K002::dmcm20079av,Monitoring,4/12/2020 4:59,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem. 
+Update: Site temporary closed between 18th march - 12th May 2020.. Ticket has been closed and merged to #197783",Shalini
+146,201018,3,1,Kedah,PMP::K010::dmcm20082av & dmcm20082bv,Monitoring,4/17/2020 0:25,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+147,201199,3,1,KL,PMP::V001::dmcm20012av & dmcm20012bv,Monitoring,4/17/2020 22:27,4/18/2020 11:59,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Shalini
+148,201115,3,3,KL,PMP::W061::dmcm20152av,Monitoring,4/16/2020 7:23,4/19/2020 5:59,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is monitored up after telco reset the port,Shalini
+149,201212,3,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/17/2020 22:55,4/18/2020 10:53,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Shalini
+150,201146,3,3,Selangor,PMP::W070::dmcm20161av,Monitoring,4/15/2020 8:49,4/18/2020 1:55,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is monitored up after telco reset port,Shalini
+151,201023,3,1,Kedah,PMP::K007::dmcm20050av & dmcm20050bv,Monitoring,4/17/2020 1:01,4/17/2020 13:56,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Shalini
+152,201101,3,1,N.Sembilan,PMP::N008::dmcm20069av & dmcm20069bv,Monitoring,4/17/2020 13:04,4/17/2020 13:21,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Shalini
+153,201190,3,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/17/2020 20:15,4/17/2020 20:20,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Link is monitored up once AV and BV wireless signal stable. Site was total down previously due to AV & BV wireless flapped due to outlet is closed currently.
+Update: Primary DSL link is down (#201202). Site is up via AV wireless. ",Shalini
+154,201053,3,1,Johor,PMP::J034::dmcm20236av & dmcm20236bv,Monitoring,4/17/2020 8:40,4/17/2020 8:50,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Link is up once reset cellular interface for BV router. Site was total down previously due to BV wireless flapped due to outlet is closed currently.
+Update: Site running on dual 3G. Primary link not yet installed.Site is up via AV wireless. As of AV router was involved with telco congestion issue. Please refer ticket (200683) for AV sim issue.",Shalini
+155,201269,3,3,Perak,PMP::A055::dmcm20290av,Monitoring,4/18/2020 11:12,4/25/2020 22:01,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Modem Hang,Site facing power outage issue previously (Ticket#203009). Link up once power resumed.,Shalini
+156,201376,3,1,Johor,PMP::J007::dmcm20215av & dmcm20215bv,Monitoring,4/18/2020 16:40,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+157,201423,3,1,Melaka,PMP::M048::dmcm20340av & dmcm20340bv,Monitoring,4/18/2020 20:38,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+158,201383,3,3,Melaka,PMP::M063::dmcm20027av,Monitoring,3/23/2020 10:26,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+159,201309,3,3,N.Sembilan,PMP::N005::dmcm20066av,Monitoring,3/26/2020 15:55,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+160,201374,3,3,KL,PMP::W025::dmcm20125av,Monitoring,4/6/2020 0:32,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+161,201358,3,3,Selangor,PMP::W029::dmcm20005av,Monitoring,4/6/2020 0:13,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+162,201391,3,3,KL,PMP::W040::dmcm20135av,Monitoring,4/16/2020 3:13,4/18/2020 20:54,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link monitored up after TM reset port and refresh session,Shalini
+163,201335,3,3,Selangor,PMP::W079::dmcm20170av,Monitoring,4/15/2020 13:04,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+164,201306,3,3,KL,PMP::W090::dmcm20180av,Monitoring,3/29/2020 20:25,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary YES LTE down & pending PMP to reboot YES LTE modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+165,201399,3,3,KL,PMP::W095::dmcm20183av,Monitoring,4/6/2020 0:29,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+166,201231,3,1,Kedah,PMP::K007::dmcm20050av & dmcm20050bv,Monitoring,4/18/2020 4:48,4/18/2020 9:39,,,0 days 0 hrs 0 mins ,,Site Total Down (Operation Hours),Customer::Power Outage,Link are up once power resumed ,Shalini
+167,201384,3,1,Perak,PMP::PK03::dmcm30007av & dmcm30007bv,Monitoring,4/18/2020 17:00,4/18/2020 17:03,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link are up once power resumed ,Shalini
+168,201338,3,3,KL,PMP::W027::dmcm20126av,Monitoring,3/5/2020 5:33,4/18/2020 17:51,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link monitored up after TM reset port and refresh session from their end,Shalini
+169,201281,3,3,KL,PMP::W033::dmcm20006av,Monitoring,4/4/2020 13:51,4/20/2020 11:51,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is up and stable once TM reset port and next tier 2 team bounce Primary tunnels ,Shalini
+170,201280,3,3,KL,PMP::W063::dmcm20154av,Monitoring,4/3/2020 4:59,4/18/2020 14:42,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link up once TM done reset port and Tier Team bounce Primary Tunnel (5&6),Shalini
+171,201703,3,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/19/2020 21:10,4/20/2020 12:14,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link up once power resume,Shalini
+172,201683,3,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/19/2020 19:11,4/19/2020 19:22,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Link is monitored up via self restored. Site was total down previously as AV & BV wireless flapped due to outlet is closed currently.
+Update: Primary DSL link is down (#201202). Site is up via AV wireless. ",Shalini
+173,201738,4,2,Perak,PMP::A006::dmcm20248av,Monitoring,4/20/2020 12:10,4/20/2020 23:28,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - High Latency,Issue resolved once Telco done reset cellular network and Tier 2 team performed remotely rebooted AV router.,Farhan
+174,201727,4,1,Penang,PMP::P027::dmcm20310av & dmcm20310bv,Monitoring,4/20/2020 10:07,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+175,201749,4,2,KL,PMP::W052::dmcm20145av,Monitoring,4/20/2020 12:55,4/21/2020 0:56,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - High Latency,Issue resolved once Telco done reset cellular network and Tier 2 team performed remotely rebooted AV router.,Farhan
+176,201845,4,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/20/2020 21:59,4/21/2020 9:51,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link up once power resume,Farhan
+177,202099,4,3,N.Sembilan,PMP::N005::dmcm20066av,Monitoring,4/21/2020 13:27,,,,0 days 0 hrs 0 mins ,,AV Router Down,<Open Ticket>,"Issue: AV router down
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+178,201978,4,1,Penang,PMP::P026::dmcm20309av & dmcm20309bv,Monitoring,4/21/2020 10:32,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+179,202069,4,3,Penang,PMP::P040::dmcm20045av,Monitoring,4/21/2020 12:36,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: AV wired down
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+180,202222,4,1,Selangor,PMP::B031::dmcm20088av & dmcm20088bv,Monitoring,4/21/2020 22:01,4/21/2020 22:32,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link up once power resume,Farhan
+181,202216,4,1,N.Sembilan,PMP::N006::dmcm20067av & dmcm20067bv,Monitoring,4/21/2020 21:38,4/21/2020 21:52,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link up once power resume,Farhan
+182,202094,4,3,Selangor,PMP::W055::dmcm20148av,Monitoring,4/21/2020 13:16,4/21/2020 20:44,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,"Link up once Telco refresh session, reset port & our Tier 2 team bounce the primary tunnel",Farhan
+183,202186,4,2,Penang,PMP::P046::dmcm20324av,Monitoring,4/21/2020 18:13,4/21/2020 19:41,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - High Latency,AV wireless Celcom faced high latency issue. Resolved once Telco reset sim network,Farhan
+184,202002,4,3,KL,PMP::W059::dmcm20008av,Monitoring,4/21/2020 11:04,4/27/2020 18:55,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Primary link DSL down and restored after AVR total down (#203346) due to AV 3G flapped. AVR and DSL link up after remotely power cycle and telco reset session from their end.,Farhan
+185,202063,4,2,Johor,PMP::J012::dmcm20219av,Monitoring,4/21/2020 12:30,4/21/2020 12:31,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - Intermittent,Link is up via self restored ,Farhan
+186,202338,4,3,Johor,PMP::J026::dmcm20230bv,Monitoring,4/22/2020 15:31,4/24/2020 22:04,,,0 days 0 hrs 0 mins ,,BV Router Down,NTS::WAN Wireless - Intermittent,BV router up once Telco reset sim network & next tier 2 team reboot BV router remotely,Shalini
+187,202438,4,1,Johor,PMP::J037::dmcm20238av & dmcm20238bv,Monitoring,4/22/2020 21:13,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+188,202360,4,1,KL,PMP::V009::dmcm20192av & dmcm20192bv,Monitoring,4/22/2020 16:47,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+189,202327,4,1,Pahang,PMP::V017::dmcm20200av & dmcm20200av,Monitoring,4/22/2020 14:52,4/24/2020 10:19,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link up once power resume,Shalini
+190,202300,4,3,KL,PMP::W043::dmcm20138av,Monitoring,4/19/2020 15:55,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+191,202424,4,1,Pahang,PMP::W076::dmcm20167av & dmcm20167bv,Monitoring,4/22/2020 19:34,4/23/2020 11:53,,,0 days 0 hrs 0 mins ,,Site Total Down (Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+192,202334,4,1,Perak,PMP::A010::dmcm20251av & dmcm20251bv,Monitoring,4/22/2020 15:07,4/22/2020 15:14,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+193,202341,4,1,Perak,PMP::A037::dmcm20039av & dmcm20039bv,Monitoring,4/22/2020 15:40,4/22/2020 15:46,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+194,202246,4,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/22/2020 4:27,4/22/2020 10:30,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+195,202232,4,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/22/2020 0:12,4/22/2020 0:21,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Link is monitored up once AV and BV wireless signal stable. Site was total down previously due to AV & BV wireless flapped due to outlet is closed currently.
+Update: Primary DSL link is down (#201202). Site is up via AV wireless. ",Shalini
+196,202553,4,1,Perak,PMP::A022::dmcm20259av & dmcm20259bv,Monitoring,4/23/2020 18:34,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020.",Shalini
+197,202528,4,1,Selangor,PMP::B034::dmcm20092av & dmcm20092bv,Monitoring,4/23/2020 15:44,4/24/2020 9:52,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+198,202518,4,1,Johor,PMP::J040::dmcm20025av & dmcm20025av,Monitoring,4/23/2020 12:57,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down & pending user to verify power status
+Update: Site temporary closed between 18th march - 12th May 2020. As for primary link down please refer Incident #199869",Shalini
+199,202557,4,1,KL,PMP::V001::dmcm20012av & dmcm20012bv,Monitoring,4/23/2020 19:21,4/24/2020 8:04,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+200,202548,4,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/23/2020 18:19,4/24/2020 10:15,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+201,202484,4,1,Perak,PMP::A022::dmcm20259av & dmcm20259bv,Monitoring,4/23/2020 7:39,4/23/2020 7:49,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Shalini
+202,202508,4,3,KL,PMP::W017::dmcm20117bv,Monitoring,4/23/2020 10:35,4/23/2020 12:35,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Maxis),NTS::WAN Wireless - Telco Outage,Link up once telco recitified the issue.,Shalini
+203,202597,4,3,Selangor,PMP::B016::dmcm20058av,Monitoring,4/24/2020 7:05,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+204,202598,4,3,Perak,PMP::A058::dmcm20292av,Monitoring,4/24/2020 7:13,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+205,202629,4,3,Selangor,PMP::B048::dmcm20091bv,Monitoring,4/24/2020 8:41,4/24/2020 8:45,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Maxis),NTS::WAN Wireless - Flapping,Link is up via self restored ,Farhan
+206,202632,4,3,Perak,PMP::A032::dmcm20269bv,Monitoring,4/24/2020 8:45,4/24/2020 8:48,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Maxis),NTS::WAN Wireless - Flapping,Link is up via self restored ,Farhan
+207,202650,4,1,Perak,PMP::A004::dmcm20246av & dmcm20246bv,Monitoring,4/24/2020 9:24,4/24/2020 9:29,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wired - Session Hang,"Issue: AV wired Session Hang & AV wireless flapping. BV router unable to take over due to short period of downtime AV router. 
+Lead site total down.
+Solution: AV wired Session is up via self restored, same goes to AV wireless. Aside that, BV router also monitored stable.",Farhan
+208,202702,4,1,Johor,PMP::J004::dmcm20212av & dmcm20212bv,Monitoring,4/24/2020 14:07,4/24/2020 14:58,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Farhan
+209,202721,4,3,KL,PMP::W065::dmcm20156av,Monitoring,4/24/2020 16:18,4/24/2020 21:22,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is up once TM reset port and next tier team bounce tunnel 5 & 6,Farhan
+210,202722,4,1,Perak,PMP::A042::dmcm20277av & dmcm20277bv,Monitoring,4/24/2020 16:19,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+211,202733,4,1,Selangor,PMP::B034::dmcm20092av & dmcm20092bv,Monitoring,4/24/2020 16:38,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+212,202779,4,1,KL,PMP::W072::dmcm20163av & dmcm20163bv,Monitoring,4/24/2020 20:02,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+213,202783,4,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/24/2020 21:10,4/25/2020 10:38,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Farhan
+214,202785,4,1,Johor,PMP::J026::dmcm20230av & dmcm20230bv,Monitoring,4/24/2020 21:25,4/24/2020 21:34,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"Root Cause: WAN Wireless - Flapping
+Solution: Self restored
+Remarks: Site total down recently due to AV wireless flapping (AV Wired was shut due to unstable connection & BV router was down #202338).",Farhan
+215,202975,4,1,Perak,PMP::A017::dmcm20256av & dmcm20256bv,Monitoring,4/25/2020 18:13,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+216,203018,4,3,Perak,PMP::A045::dmcm20280bv,Monitoring,4/25/2020 22:23,4/26/2020 0:00,,,0 days 0 hrs 0 mins ,,BV Router Down,NTS::WAN Wireless - Flapping,Link restored after telco reset sim network and next tier 2 team performed reset interface network cellular.,Farhan
+217,202801,4,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/25/2020 1:06,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: AV wired down (#201202) & AV wireless intermittent. Lead site total down.
+Update: Upon checking vlan5 for BV router also detected down. Need to check on physical connection once premise open.
+Remark: Site temporary closed between 18th march - 12th May 2020.",Farhan
+218,202858,4,3,KL,PMP::W027::dmcm20126av,Monitoring,4/25/2020 9:15,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: AV wired detected intermittent.
+Update: Telco check been done. Need to reboot TM modem once premise open (MCO - after 12th May 2020).",Farhan
+219,203002,4,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/25/2020 20:02,4/26/2020 11:44,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Farhan
+220,203009,4,1,Perak,PMP::A055::dmcm20290av & dmcm20290bv,Monitoring,4/25/2020 21:42,4/25/2020 22:02,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Farhan
+221,202884,4,3,KL,PMP::W012::dmcm20114av,Monitoring,4/25/2020 10:16,4/25/2020 10:21,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Link is up once TM reset port and refresh session ,Farhan
+222,203029,4,3,Selangor,PMP::B031::dmcm20088bv,Monitoring,4/26/2020 0:21,4/26/2020 3:00,,,0 days 0 hrs 0 mins ,,BV Router Down,NTS::WAN Wireless - Flapping,BV router up once telco reset sim network and link stable after quota reloaded on 28th April,Farhan
+223,203216,4,1,Kedah,PMP::K002::dmcm20079av & dmcm20079bv,Monitoring,4/26/2020 19:58,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+224,203200,4,1,N.Sembilan,PMP::N009::dmcm20033av & dmcm20033bv,Monitoring,4/26/2020 19:23,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Farhan
+225,203191,4,1,Penang,PMP::P012::dmcm20298av & dmcm20298bv,Monitoring,4/26/2020 18:54,4/28/2020 10:56,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Nathasha
+226,203219,4,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/26/2020 20:15,4/27/2020 10:19,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Nathasha
+227,203310,5,3,Perak,PMP::A009::dmcm20250bv,Monitoring,4/27/2020 12:44,,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Maxis),<Open Ticket>,"Issue: BV router down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+228,203346,5,3,KL,PMP::W059::dmcm20008av,Monitoring,4/27/2020 17:31,4/27/2020 18:34,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Intermittent,"Primary link down and facing unstable connection (#202002),  where AV 3G flapped lead AVR total down. AVR and DSL up after remotely power cycle and telco reset session from their end.",Wany
+229,203272,5,3,Selangor,PMP::B023::dmcm20055av,Monitoring,4/27/2020 9:14,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+230,203281,5,3,KL,PMP::W012::dmcm20114av,Monitoring,4/27/2020 10:15,4/27/2020 13:30,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Primary link DSL up and stable after telco reset session and port.,Wany
+231,203251,5,3,KL,PMP::W012::dmcm20114av,Monitoring,4/27/2020 3:55,4/27/2020 9:12,,,0 days 0 hrs 0 mins ,,AV Wired Down,NTS::WAN Wired - Session Hang,Primary link DSL up and stable after telco reset session and port.,Wany
+232,203344,5,3,Selangor,PMP::W042::dmcm20137av,Monitoring,4/6/2020 0:31,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+233,203366,5,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/27/2020 21:40,4/28/2020 10:53,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Nathasha
+234,203305,5,1,Perak,PMP::A009::dmcm20250av & dmcm20250bv,Monitoring,4/27/2020 12:33,4/27/2020 12:36,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Wany
+235,203293,5,1,KL,PMP::B017::dmcm20060av & dmcm20060bv,Monitoring,4/27/2020 11:48,,,,0 days 0 hrs 0 mins ,,Site Total Down (Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+236,203363,5,1,Pahang,PMP::W093::dmcm20182av & dmcm20182bv,Monitoring,4/27/2020 21:14,4/28/2020 15:57,,,0 days 0 hrs 0 mins ,,Site Total Down (Operation Hours),Customer::Power Outage,Link is up once power is resumed,Nathasha
+237,203287,5,3,KL,PMP::V020::dmcm20343av,Monitoring,4/27/2020 10:53,,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,<Open Ticket>,"Issue: AV router high latency, escalated to Maxis provider to check on the issue.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+238,203522,5,3,KL,PMP::W008::dmcm20111av,Monitoring,4/22/2020 3:33,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+239,203601,5,1,Kedah,PMP::K009::dmcm20081av & dmcm20081bv,Monitoring,4/28/2020 20:25,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+240,203440,5,3,KL,PMP::W012::dmcm20114av,Monitoring,4/28/2020 11:35,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+241,203414,5,1,Perak,PMP::A040::dmcm20276av & dmcm20276bv,Monitoring,4/28/2020 9:59,4/28/2020 10:02,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Wany
+242,203586,5,3,KL,PMP::W094::dmcm20011bv,Monitoring,4/28/2020 19:10,4/28/2020 20:49,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Celcom),NTS::WAN Wireless - Flapping,BV router up once telco reset sim network and refresh cellular interface.,Wany
+243,203557,5,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/28/2020 18:16,4/29/2020 11:13,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Nathasha
+244,203449,5,2,Selangor,PMP::V014::dmcm20197av,Monitoring,4/28/2020 12:41,4/28/2020 15:40,,,0 days 0 hrs 0 mins ,,High Latency / Slow Ticket Transaction,NTS::WAN Wireless - Flapping,Link is up once telco reset the cellular connection,Nathasha
+245,203450,5,1,Perak,PMP::A004::dmcm20246av & dmcm20246bv,Monitoring,4/28/2020 12:58,4/28/2020 12:59,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wired - Intermittent,Link up once primary link stable (flapped for 1min). AV wireless was flapping at the same time. Both link up via self restored.,Wany
+246,203464,5,3,KL,PMP::W094::dmcm20011bv,Monitoring,4/28/2020 14:18,4/28/2020 17:37,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Celcom),NTS::WAN Wireless - Flapping,BV router up once telco reset sim network.,Wany
+247,203604,5,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/28/2020 20:42,4/28/2020 20:47,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"AV wireless flapping & self restored. 
+Remarks: AV Wired currently down (single-leg failure #201202) and both AV & BV Wireless faced signal flapping causing the site total down recently.",Wany
+248,203611,5,3,Selangor,PMP::W078::dmcm20169av,Monitoring,4/28/2020 20:58,4/28/2020 21:16,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Digi),NTS::WAN Wireless - Flapping,BV wireless flapping & self restored,Wany
+249,203461,5,3,Kedah,PMP::K010::dmcm20082av,Monitoring,4/15/2020 8:34,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+250,203616,5,1,KL,PMP::W094::dmcm20011av & dmcm20011bv,Monitoring,4/28/2020 21:37,4/28/2020 21:44,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"AV wireless flapping & self restored. 
+Remarks: AV Wired currently down (single-leg failure #199575) and both AV & BV Wireless faced signal flapping causing the site total down recently.",Wany
+251,203482,5,1,N.Sembilan,PMP::N011::dmcm20071av & dmcm20071bv,Monitoring,4/28/2020 15:15,4/28/2020 15:39,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),Customer::Power Outage,Link is up once power is resumed,Wany
+252,203525,5,3,KL,PMP::W038::dmcm20133av,Monitoring,4/24/2020 20:25,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Wany
+253,203759,5,1,Selangor,PMP::V018::dmcm20201av & dmcm20201bv,Monitoring,4/29/2020 13:44,4/29/2020 13:46,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"AV Wired wired (single leg-failure#203777) and AV Wireless was flapping which lead site to total down.
+Remarks: BV router unable to triggered due to short period of downtime (2 minutes)",Nathasha
+254,203846,5,1,KL,PMP::W067::dmcm20158av & dmcm20158bv,Monitoring,4/29/2020 17:27,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+255,203627,5,1,Selangor,PMP::V003::dmcm20014av & dmcm20014bv,Monitoring,4/29/2020 1:17,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+256,203888,5,3,KL,PMP::W094::dmcm20011bv,Monitoring,4/29/2020 21:33,4/30/2020 12:04,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Celcom),NTS::WAN Wireless - Flapping,Link is up and stable once Telco reset sim network ,Nathasha
+257,203685,5,3,KL,PMP::W094::dmcm20011bv,Monitoring,4/29/2020 10:10,,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Celcom),NTS::WAN Wireless - Flapping,Self Restored,Nathasha
+258,203891,5,1,KL,PMP::W087::dmcm20178av & dmcm20178bv,Monitoring,4/29/2020 21:57,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+259,203795,5,1,Perak,PMP::A022::dmcm20259av & dmcm20259bv,Monitoring,4/29/2020 15:06,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+260,203813,5,3,Selangor,PMP::W039::dmcm20134bv,Monitoring,4/29/2020 16:03,,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Digi),NTS::WAN Wireless - Flapping,Link up once Telco reset SIM network,Nathasha
+261,203777,5,3,Selangor,PMP::V018::dmcm20201av,Monitoring,4/29/2020 21:51,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+262,203907,5,1,Kedah,PMP::K006::dmcm20080av & dmcm20080bv,Monitoring,4/29/2020 1:43,,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),<Open Ticket>,"Issue: Site total down. Need to verify power status onsite once premise open.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+263,203904,5,3,Perak,PMP::A005::dmcm20247bv,Monitoring,4/30/2020 0:33,4/30/2020 1:36,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Maxis),NTS::WAN Wireless - Flapping,Link is monitored up after Telco reset cellular network,Nathasha
+264,203970,5,3,Kedah,PMP::K013::dmcm20327bv,Monitoring,4/30/2020 14:42,4/30/2020 16:05,,,0 days 0 hrs 0 mins ,,BV Cellular Down (Celcom),NTS::WAN Wireless - Flapping,Self Restored,Nathasha
+265,203957,5,3,KL,PMP::W050::dmcm20052av,Monitoring,4/29/2020 16:07,,,,0 days 0 hrs 0 mins ,,AV Wired Down,<Open Ticket>,"Issue: Primary DSL down & pending PMP to reboot TM modem.
+Update: Site temporary closed between 18th march - 12th May 2020.",Nathasha
+266,203908,5,1,Perak,PMP::A004::dmcm20246av & dmcm20246bv,Monitoring,4/30/2020 1:51,4/30/2020 1:56,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wired - Intermittent,"Solution: AV Wireless was flapping which lead site to total down.
+Remarks: BV router unable to triggered due to short period of downtime (5 minutes)",Nathasha
+267,203916,5,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/30/2020 3:10,4/30/2020 3:17,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"AV wireless flapping & self restored. 
+Remarks: AV Wired currently down (single-leg failure #201202) and both AV & BV Wireless faced signal flapping causing the site total down recently. Ticket is closed and merged into #202801",Nathasha
+267,203916,5,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/30/2020 4:02,4/30/2020 4:04,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"AV wireless flapping & self restored. 
+Remarks: AV Wired currently down (single-leg failure #201202) and both AV & BV Wireless faced signal flapping causing the site total down recently. Ticket is closed and merged into #202802",Nathasha
+267,203916,5,1,Johor,PMP::J012::dmcm20219av & dmcm20219bv,Monitoring,4/30/2020 4:24,4/30/2020 4:44,,,0 days 0 hrs 0 mins ,,Site Total Down (Off-Operation Hours),NTS::WAN Wireless - Flapping,"AV wireless flapping & self restored. 
+Remarks: AV Wired currently down (single-leg failure #201202) and both AV & BV Wireless faced signal flapping causing the site total down recently. Ticket is closed and merged into #202803",Nathasha
