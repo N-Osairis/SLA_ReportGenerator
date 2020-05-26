@@ -51,8 +51,8 @@ if  "FJB" in client_name:
 #==============================================VINX-Emoney SLA=====================================================
 if  "VINX-EMONEY" in client_name:
     RD="Resources_folder\\File_resources-VINXEMONEY"
-    MasterSheet=RD+"\\AEON (VINX) MASTERSHEET_april.csv"
-    IncidentSheet=RD+"\\Vinx Incident Report_april.csv"
+    MasterSheet=RD+"\\AEON (VINX) MASTERSHEET.csv"
+    IncidentSheet=RD+"\\Vinx Incident Report.csv"
     SLA=99.7 # pmp=99.97
     # 0---->N0  1---->site code   2---->site name   3---->store type   5---->region  13---->primary line   17----->secondary line   24---->secondary 3G
     MasterCo=[0,1,2,3,5,13,17,24]
