@@ -17,7 +17,7 @@ from tkinter import *
 import calendar
 import os
 import xlsxwriter as exwriter
-# ------------------user input box(need to update below info based on the clients)------------------------------------------
+# ------------------user input box(need to update below info based on the clients)---------------------------------------------------------------
 # =========================================commen data for SLA===========================================
 sla_date=4
 sla_year=2020
@@ -70,8 +70,11 @@ if  "VINX-WAN" in client_name:
     IncidentCol=[0,1,5,9,10,11,13]
 
 
-# ---------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # ---------------------------------------sub functions-----------------------------------------------
+#this function open the input csv file return all the data in array list
 def opencsv(filetext):
     with open(filetext) as csvfile:
         readCSV = csv.reader(csvfile, delimiter=',')
@@ -83,6 +86,9 @@ def opencsv(filetext):
              # print (date)
 
     return datas
+
+
+#this function open the input csv file return the specific column data in array list
 def opencsv_specifcColumn(filetext,ColList):
     with open(filetext) as csvfile:
         readCSV = csv.reader(csvfile, delimiter=',')
@@ -95,6 +101,7 @@ def opencsv_specifcColumn(filetext,ColList):
                 date.append(row[z])
               datas.append(date)
     return datas
+
 def MinCalculate(str):
    x =str.split()
    min=(int(x[0])*1440)+(int(x[2])*60)+int(x[4])

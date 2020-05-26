@@ -6,7 +6,7 @@ please be noted:
 
 1) to generate the report, need to past the resources files(updated "mastersheet" & incident report file in csv format) in the Resources_folder and corresponding client folder follow the sample format.
 
-2)to make sure there is no any merge cell in the input excel files(or CSV file).
+2)make sure there is no any merge cell in the input excel files(or CSV file).
 
 3)the output files will be created in the output_folder follow below folder foramt name:
 
