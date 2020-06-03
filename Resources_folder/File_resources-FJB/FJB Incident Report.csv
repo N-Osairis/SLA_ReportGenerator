@@ -1,55 +1,954 @@
 NO,TICKET,WEEK,SEVERITY,SITE,SOURCE,INCIDENT START,INCIDENT END,SERVICE-IMPACT START (10AM-10PM),SERVICE-IMPACT END (10AM-10PM),SERVICE DOWNTIME,ONSITE,ROOT CAUSE,REMARKS,REVISED BY
-1,198047,1,3,FJB::Guess::Guess - Design Village,Monitoring,4/1/2020 0:09,4/1/2020 10:19,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue: Primary link TM not stable
-Updated: Telco check been done. Premise closed till 28th April, followup with end user to reboot the TM modem once premise open (after 12 May 2020).",Nathasha
-2,198055,1,2,FJB::Guess::Guess - Design Village,Monitoring,4/1/2020 1:59,4/1/2020 2:20,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,"Escalated to TM for checking into primary link issue. 
-Please refer NTS ticket no #198047 for primary link.",Nathasha
-3,198036,1,2,FJB::Guess::Guess - Design Village,Monitoring,4/1/2020 0:09,4/1/2020 0:10,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,"Monitored site is up once fail over to backup link. 
-Kindly refer ticket number for primary link down (198047)",Nathasha
-4,198051,1,2,FJB::Guess::Guess - Design Village,Monitoring,4/1/2020 1:29,4/1/2020 1:32,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,Escalated to TM for checking into primary link issue. Please refer NTS ticket no #198047 for primary link.,Nathasha
-5,198497,1,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/3/2020 5:26,4/3/2020 5:27,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,Self restored,Wany
-6,198641,1,2,FJB::SuperDry::SuperDry Sunway Velocity,Monitoring,4/3/2020 18:36,4/9/2020 18:32,4/3/2020 18:36,4/9/2020 18:32,5 days 23 hrs 56 mins ,,Others::Customer - Power Outage,Links are up once power resumed ,Wany
-6,198641,1,2,FJB::SuperDry::SuperDry Sunway Velocity,Monitoring,4/9/2020 18:37,4/21/2020 18:33,4/9/2020 18:37,4/21/2020 18:33,11 days 23 hrs 56 mins ,,Others::Customer - Power Outage,Links are up once power resumed ,Wany
-7,198797,1,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/4/2020 15:41,4/4/2020 16:13,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,"Site using 3G-3G, link is up via self restored. Suspected primary link Digi 3G flapping.",Wany
-8,198875,1,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/4/2020 21:19,4/4/2020 21:30,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed. ,Wany
-8,198875,1,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/4/2020 21:35,4/4/2020 21:46,,,0 days 0 hrs 0 mins ,,,,
-9,199348,2,2,FJB::LaSenza::La Senza - Station 18,Monitoring,4/6/2020 20:11,4/6/2020 20:13,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,"Issue: Site total down
+1,205229,1,3,FJB::Guess::Guess - Kid One Utama,Client,5/4/2020 11:21:00,5/4/2020 15:04:00,,,0 days 0 hrs 0 mins ,,ATA::ATA - Failed IN/OUT,Link restored after respective ATA team migrate to new Voip Server.,Nathasha
+2,205279,1,3,FJB: Phone Line Issue,Client,5/4/2020 12:37:00,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue: ATA Phone line issue/Duplicate number phone
+Update: Total site FJB using VOIP ATA - 55 sites. All migrated to new server VOIP.
+Pending Test call 2 sites:
+1) LaSenza Sky Avenue - PIC inform outlet haven't start operation
+2) Marc Jacob Genting - PIC inform outlet haven't start operation
+Remark: Pending update from client regarding store operation date for both sites and official RFO from ATA Team (27th May 2020).",Nathasha
+3,205551,1,2,FJB::SuperDry::SuperDry - Tebrau City JB,Monitoring,5/5/2020 14:28:32,5/5/2020 14:30:32,5/5/2020 14:28:32,5/5/2020 14:30:32,0 days 0 hrs 2 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Nathasha
+4,205354,1,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,5/5/2020 1:45:57,5/5/2020 2:19:57,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Nathasha
+5,205647,1,3,FJB::Guess::Guess - Tebrau City,End User,5/5/2020 15:55:00,5/7/2020 20:15:00,,,0 days 0 hrs 0 mins ,,ATA::ATA - Display Number Issue,Issue resolved after ATA team completed migration to new SIP server.,Nathasha
+6,205850,1,1,Planned Maintenance Notification | <7th May 2020><Zabbix Monitoring System>,Monitoring,5/6/2020 16:16:00,5/7/2020 19:49:00,,,0 days 0 hrs 0 mins ,,WAN::WAN Planned Maintenance,Planned maintenance activity successfully completed,Wany
+7,205822,1,2,FJB::Guess::Guess - Kid Pavillion,Monitoring,5/6/2020 15:11:53,5/6/2020 15:26:53,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Wany
+8,205818,1,3,FJB::SuperDry::SuperDry - Sunway Velocity,End User,5/6/2020 13:40:00,5/7/2020 20:58:00,,,0 days 0 hrs 0 mins ,,ATA::ATA - Display Number Issue,Issue resolved after ATA team completed migration to new SIP server.,Wany
+9,206041,1,2,FJB::Guess::Guess - Suria KLCC,Monitoring,5/7/2020 19:57:34,5/8/2020 15:16:34,5/7/2020 19:57:34,5/8/2020 15:16:34,0 days 19 hrs 19 mins ,,WAN::WAN Primary - Intermittent,Link is monitored up and stable after Maxis modem rebooted.,Nathasha
+10,206157,1,2,FJB::Guess::Guess - Queensbay Mall,Monitoring,5/8/2020 9:56:20,5/8/2020 10:01:20,5/8/2020 10:00:00,5/8/2020 10:01:20,0 days 0 hrs 1 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Nathasha
+11,206326,1,2,FJB::Guess::Guess - Kota Bharu,Monitoring,5/8/2020 16:27:29,5/8/2020 16:28:29,5/8/2020 16:27:29,5/8/2020 16:28:29,0 days 0 hrs 1 mins ,,WAN::WAN Primary - Session Hang,"Issue: Site total down
 Remark:  Primary link was flapping and link monitored up via self-restored. 
-Backup unable to triggered yet as it only 2 minute downtime.",Nathasha
-10,199480,2,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/7/2020 6:35,4/7/2020 6:39,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Nathasha
-11,199459,2,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/7/2020 4:27,4/7/2020 4:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping, Link is up via self-restored ,Nathasha
-12,199461,2,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,4/7/2020 4:41,4/7/2020 4:50,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,"Issue: Site total down
-Remark:  Primary link was flapping and link monitored up via self-restored. 
-Backup was bouncing at the same time leads to site total down.
-Remarks: Ticket were accidentally merged into ticket #197669.",Nathasha
-13,199494,2,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,4/7/2020 7:08,4/7/2020 7:37,,,0 days 0 hrs 0 mins ,,WAN Backup - Flapping,Site were total down and restored. Primary link monitored total down (197669) and backup link flapping lead site total down. Site is up via backup link once telco reset cellular connection.,Nathasha
-13,199494,2,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,4/7/2020 7:43,4/7/2020 7:47,,,0 days 0 hrs 0 mins ,,WAN Backup - Flapping,Site were total down and restored. Primary link monitored total down (197669) and backup link flapping lead site total down. Site is up via backup link once telco reset cellular connection.,Nathasha
-13,199494,2,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,4/7/2020 7:54,4/7/2020 8:04,,,0 days 0 hrs 0 mins ,,WAN Backup - Flapping,Site were total down and restored. Primary link monitored total down (197669) and backup link flapping lead site total down. Site is up via backup link once telco reset cellular connection.,Nathasha
-13,199494,2,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,4/7/2020 8:23,4/7/2020 8:45,,,0 days 0 hrs 0 mins ,,WAN Backup - Flapping,Site were total down and restored. Primary link monitored total down (197669) and backup link flapping lead site total down. Site is up via backup link once telco reset cellular connection.,Nathasha
-13,199494,2,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,4/7/2020 8:50,4/7/2020 8:51,,,0 days 0 hrs 0 mins ,,WAN Backup - Flapping,Site were total down and restored. Primary link monitored total down (197669) and backup link flapping lead site total down. Site is up via backup link once telco reset cellular connection.,Nathasha
-14,200285,2,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,4/11/2020 21:00,4/11/2020 23:49,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Issue: Site total down
-Remark:  Primary link session hang. Link restored once telco refresh session. Backup link signal was flapping. Backup link up via self restored.",Nathasha
-14,200285,2,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,4/12/2020 1:05,4/12/2020 7:17,,,,,,,
-15,201705,3,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/19/2020 21:30,4/19/2020 21:31,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,Link up via self restored.,Shalini
-16,201848,4,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,4/20/2020 22:09,4/21/2020 8:45,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Root cause: Primary link Tm session hang and backup flapping lead site total down recently.
-Solution: Primary Link TM resolved once refresh session/reset port been done while for backup link, self restored. FOT success.",Farhan
-17,201828,4,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/20/2020 19:24,4/20/2020 19:26,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,Link up via self restored.,Farhan
-19,202044,4,3,FJB::Guess::Guess - Queensbay Mall,Monitoring,4/21/2020 12:00,4/21/2020 13:34,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link restored update telco refresh session and reset port.,Farhan
-20,201875,4,2,FJB::LaSenza::La Senza - The Spring,Monitoring,4/21/2020 1:02,4/21/2020 3:05,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Issue: Primary Link faced telco outage and backup link flapping lead site total down. 
-Solution: Primary Link & backup link self restored. FOT success.",Farhan
-21,201880,4,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,4/21/2020 1:31,4/21/2020 8:59,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,"Issue: Primary Link Digi 3G faced signal flapping & Backup link also flapped lead site total down.
-Solution: Primary Link resolved once Telco reset sim network while backup link self restored. FOT success.",Farhan
-22,202352,4,2,FJB::Marc Jacob::Marc Jacob KLCC,Monitoring,4/22/2020 16:20,4/22/2020 16:21,4/22/2020 16:20,4/22/2020 16:21,0 days 0 hrs 1 mins ,,WAN::WAN Backup - Flapping,"Issue: Site total down
-Update: Site running on single leg backup link. Site total down due to backup link flapped and up via self restored. Primary link is down (#196110).",Shalini
-23,202566,4,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,4/23/2020 21:00,4/23/2020 22:01,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,Link is up and stable after TM reset port and refresh session ,Shalini
-24,202692,4,3,FJB::Guess::Guess - Imago,Monitoring,4/24/2020 12:09,,,,0 days 0 hrs 0 mins ,,<Open Ticket>,"Issue: Primary TM Down
-Update: Followup with end user to reboot TM Modem once premise open (MCO - after 12 May 2020).",Farhan
-25,202586,4,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,4/24/2020 1:38,4/24/2020 7:32,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,Link is up and stable after TM reset port and refresh session,Farhan
-26,203019,5,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,4/25/2020 22:26,4/26/2020 7:16,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Issue: Primary TM session hang, backup flapping. Lead site total down.
-Update: Primary Up once TM reset the port while for backup link Up via self restored.",Farhan
-27,203362,5,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,4/27/2020 21:12,4/28/2020 7:14,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Site is up after TM reset port (before reset session established for 10 hours ago). 3G unable to triggered might be due to primary link connection was not total down (only connection hang) lead site total down. 
-Remark : Currently premise closed due to MCO.",Wany
-28,203456,5,3,FJB::Guess::Guess - One Utama,Client,4/28/2020 13:33,4/29/2020 18:34,,,0 days 0 hrs 0 mins ,,WAN::WAN - IPSec Issue,Issue resolved once L3 upgrade firmware version of the router ,Nathasha
-29,203470,5,2,FJB::Guess::Guess - One Utama,Monitoring,4/28/2020 14:36,4/28/2020 17:55,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,"Primary link facing intermittent connection which site unable to fail over to backup 3G lead site total down. Primary link stable after PIC  rebooted VA router, upplugged cable connectivity from port A and rebooted Maxis Modem.  
-Remark : Currently premise closed due to MCO. Site still using old firmware. L3 have upgrade firmware after site stable.",Wany
-30,203678,5,2,"FJB::Pretty Ballerinas::Pretty Ballerinas - KLCC
-",Monitoring,4/29/2020 9:45,4/29/2020 9:46,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Links are up once power resumed,Nathasha
+Backup was bouncing at the same time leads to site total down.",Nathasha
+12,206406,1,3,FJB::SuperDry::SuperDry - Mitsui,End User,5/8/2020 17:23:00,5/9/2020 11:51:00,,,0 days 0 hrs 0 mins ,,ATA::ATA - Failed IN/OUT,ATA team has added a new VoIP server. Currently site is running on a new server,Nathasha
+13,206277,1,2,FJB::Guess::Guess - Suria KLCC,Monitoring,5/8/2020 14:32:34,5/8/2020 15:16:34,5/8/2020 14:32:34,5/8/2020 15:16:34,0 days 0 hrs 44 mins ,,Others::Duplicate Ticket,"Issue: Site total down
+Update : Link is restored via primary link. Site were having intermittent issue for Primary Maxis.
+Remarks : Ticket is closed and merged with Ticket#206041 as to follow up on Primary intermittent issue.",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 12:18:19,5/8/2020 12:39:19,5/8/2020 12:18:19,5/8/2020 12:39:19,0 days 0 hrs 21 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 12:52:19,5/8/2020 13:09:19,5/8/2020 12:52:19,5/8/2020 13:09:19,0 days 0 hrs 17 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 13:14:19,5/8/2020 13:19:19,5/8/2020 13:14:19,5/8/2020 13:19:19,0 days 0 hrs 5 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 13:20:37,5/8/2020 13:34:19,5/8/2020 13:20:37,5/8/2020 13:34:19,0 days 0 hrs 13 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 13:44:19,5/8/2020 13:50:19,5/8/2020 13:44:19,5/8/2020 13:50:19,0 days 0 hrs 6 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 14:08:36,5/8/2020 14:39:19,5/8/2020 14:08:36,5/8/2020 14:39:19,0 days 0 hrs 30 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 14:55:19,5/8/2020 14:56:19,5/8/2020 14:55:19,5/8/2020 14:56:19,0 days 0 hrs 1 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 15:07:19,5/8/2020 15:13:19,5/8/2020 15:07:19,5/8/2020 15:13:19,0 days 0 hrs 6 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 15:19:19,5/8/2020 15:25:19,5/8/2020 15:19:19,5/8/2020 15:25:19,0 days 0 hrs 6 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 16:15:19,5/8/2020 16:16:19,5/8/2020 16:15:19,5/8/2020 16:16:19,0 days 0 hrs 1 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 18:52:19,5/8/2020 18:53:36,5/8/2020 18:52:19,5/8/2020 18:53:36,0 days 0 hrs 1 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 19:00:19,5/8/2020 19:07:19,5/8/2020 19:00:19,5/8/2020 19:07:19,0 days 0 hrs 7 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+14,206219,1,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/8/2020 19:54:19,5/8/2020 20:05:18,5/8/2020 19:54:19,5/8/2020 20:05:18,0 days 0 hrs 10 mins ,,WAN Router  Configuration,"Root Cause: WAN Router Configuration (VA Router back to factory default)
+Solution: Link stable once L3 reconfigure the router",Nathasha
+15,206428,1,2,FJB::Pretty Ballerinas::Pretty Ballerinas - KLCC,Monitoring,5/8/2020 21:05:27,5/8/2020 21:10:27,5/8/2020 21:05:27,5/8/2020 21:10:27,0 days 0 hrs 5 mins ,,WAN::WAN Primary - Session Hang,"Primary  link session were hang, and backup were flapping. 
+The link restored after telco refresh session and reset port and backup, via self restored",Nathasha
+15,206428,1,2,FJB::Pretty Ballerinas::Pretty Ballerinas - KLCC,Monitoring,5/9/2020 7:35:27,5/9/2020 9:32:27,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Primary  link session were hang, and backup were flapping. 
+The link restored after telco refresh session and reset port and backup, via self restored",Nathasha
+16,206844,1,4,FJB : URL Invalid ,Client,5/8/2020 20:37:00,5/13/2020 12:31:00,,,0 days 0 hrs 0 mins ,,Others::FW - Change Request,"Root Cause: FW - Change Request 
+Solution  : Our L3 has done some changes on Fortigate credential and URL tested working fine. ",Nathasha
+17,206436,1,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/8/2020 23:03:28,5/9/2020 0:03:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"As for primary, the modem were hang and the backup signal were flapping causing site total down.
+Link is restored once telco refreshed session and TM modem rebooted. The backup were up via self restored.",Nathasha
+17,206436,1,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/9/2020 0:08:28,5/9/2020 1:02:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"As for primary, the modem were hang and the backup signal were flapping causing site total down.
+Link is restored once telco refreshed session and TM modem rebooted. The backup were up via self restored.",Nathasha
+17,206436,1,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/9/2020 1:07:28,5/9/2020 3:02:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"As for primary, the modem were hang and the backup signal were flapping causing site total down.
+Link is restored once telco refreshed session and TM modem rebooted. The backup were up via self restored.",Nathasha
+18,206750,1,2,FJB::LaSenza::La Senza - Pavilion,Monitoring,5/9/2020 23:28:54,5/10/2020 10:21:54,5/10/2020 10:00:00,5/10/2020 10:21:54,0 days 0 hrs 21 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Nathasha
+19,206747,1,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,5/9/2020 23:09:05,5/10/2020 7:38:05,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Primary link were facing session hang, the backup were flapping.
+Link is restored for primary once telco refreshed the session and backup link were up via self restored.",Nathasha
+20,206806,1,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,5/10/2020 8:24:19,5/10/2020 8:25:19,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping, Link self restored,Nathasha
+21,207015,1,2,FJB::Guess::Guess - Imago,Monitoring,5/10/2020 23:14:17,5/11/2020 8:21:17,,,0 days 0 hrs 0 mins ,,WAN::WAN Router Hang,"Site was total down and up via selfrestored after L3 have donw upgrade firmware. Based on ticket update, there is no telco check on primary link which unable to identify on primary link status.",Nathasha
+21,207015,1,2,FJB::Guess::Guess - Imago,Monitoring,5/11/2020 8:27:17,5/11/2020 8:47:17,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Off,As verified PIC have turned off VA router due to they unable to used internet. Link monitored up after PIC turned on VA router.,Nathasha
+22,207173,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/11/2020 18:21:19,5/11/2020 18:40:19,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Wany
+23,207072,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/11/2020 10:19:19,5/11/2020 11:17:19,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed (based on router logs no logs captured during the downtime),Wany
+24,207208,2,2,FJB::SuperDry::SuperDry - Sunway Velocity,Monitoring,5/12/2020 3:00:38,5/12/2020 6:11:38,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,Primary link was involved with telco outages while backup are unable to triggered lead site total down. Site is up via primary link once telco rectified the outages and telco reset port and session from their end. FOT succesfully done once premise open and backup link triggered as normal hence suspected 3G signal weak during network outages due to premise closed. ,Wany
+25,207422,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/13/2020 9:44:19,5/13/2020 10:35:19,5/13/2020 10:00:00,5/13/2020 10:35:19,0 days 0 hrs 35 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+26,207488,2,2,FJB::LaSenza::La Senza - The Spring,Monitoring,5/13/2020 14:56:15,5/13/2020 15:08:15,5/13/2020 14:56:15,5/13/2020 15:08:15,0 days 0 hrs 12 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+27,207540,2,2,FJB::Guess::Guess - Imago,Monitoring,5/13/2020 18:31:17,5/13/2020 18:43:17,5/13/2020 18:31:17,5/13/2020 18:43:17,0 days 0 hrs 12 mins ,,WAN::WAN Primary - Intermittent,Primary link TM intermittent previously lead site total down and restored via self restored.,Farhan
+28,207640,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/14/2020 12:41:19,5/14/2020 12:44:19,5/14/2020 12:41:19,5/14/2020 12:44:19,0 days 0 hrs 3 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+29,207698,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/14/2020 18:37:19,5/14/2020 18:49:19,5/14/2020 18:37:19,5/14/2020 18:49:19,0 days 0 hrs 12 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+30,207693,2,2,FJB::Guess::Guess - Design Village,Monitoring,5/14/2020 17:54:35,5/14/2020 18:04:35,5/14/2020 17:54:35,5/14/2020 18:04:35,0 days 0 hrs 10 mins ,,WAN::WAN Backup - Quota,"Issue: Primary Link down (Ticket No: 198047), WAN Backup - Quota depleted. Lead site total down recently.
+Solution: Link restored after our FE attended site, change new sim card Maxis with new quota.",Farhan
+31,207847,2,2,FJB::TimeLab::TimeLab - Mitsui,Monitoring,5/15/2020 13:49:42,5/15/2020 14:19:42,5/15/2020 13:49:42,5/15/2020 14:19:42,0 days 0 hrs 30 mins ,,WAN::WAN Primary - Cabling,"site was up via 3G at first and total down due to 3G flapped. Upon checking with TIME no issue from their end. Hence, checked on physical cable connectivity found that Port A was connected to switch while port B to TIME ISP. Thus, had advice PIC to change and amend cable accordingly. Besides, L3 also done upgrade firmware to this site and VA router rebooted. FOT also success.",Wany
+32,208162,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/16/2020 19:43:19,5/16/2020 19:58:19,5/16/2020 19:43:19,5/16/2020 19:58:19,0 days 0 hrs 15 mins ,,WAN::WAN Primary - Session Hang,Priamary link up once telco reset session from their end.,Wany
+32,208162,2,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/16/2020 22:55:19,5/16/2020 23:05:19,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Site was total down due to FOT (3G-Primary). FOT  Primary - 3G success, FOT 3G - Primary Success .
+Remarks : During FOT 3G - Primary site total down suspected PIC have touch power cable as monitor VA router light power status blingking, hence requested PIC rebooted VA than site monitored up via primary. ",Wany
+33,207974,2,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/16/2020 3:18:28,5/16/2020 4:10:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up once telco reset session from their end. Site was total down due to primary link intermiitent and backup was bouncing due to premise closed. FOT to 3G 20min seems stable. FOT successful vice versa.,Wany
+33,207974,2,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/16/2020 4:15:28,5/16/2020 4:41:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up once telco reset session from their end. Site was total down due to primary link intermiitent and backup was bouncing due to premise closed. FOT to 3G 20min seems stable. FOT successful vice versa.,Wany
+33,207974,2,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/16/2020 4:46:28,5/16/2020 5:37:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up once telco reset session from their end. Site was total down due to primary link intermiitent and backup was bouncing due to premise closed. FOT to 3G 20min seems stable. FOT successful vice versa.,Wany
+33,207974,2,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/16/2020 5:42:28,5/16/2020 7:25:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link up once telco reset session from their end. Site was total down due to primary link intermiitent and backup was bouncing due to premise closed. FOT to 3G 20min seems stable. FOT successful vice versa.,Wany
+33,207974,2,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/16/2020 7:43:28,5/16/2020 10:29:28,5/16/2020 10:00:00,5/16/2020 10:29:28,0 days 0 hrs 29 mins ,,WAN::WAN Primary - Session Hang,Primary link up once telco reset session from their end. Site was total down due to primary link intermiitent and backup was bouncing due to premise closed. FOT to 3G 20min seems stable. FOT successful vice versa.,Wany
+34,208847,3,2,FJB::Guess::Guess - Ipoh Station 18,Monitoring,5/18/2020 15:57:10,5/18/2020 16:09:10,5/18/2020 15:57:10,5/18/2020 16:09:10,0 days 0 hrs 12 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+35,208848,3,2,FJB::LaSenza::La Senza - Station 18,Monitoring,5/18/2020 15:57:11,5/18/2020 16:08:11,5/18/2020 15:57:11,5/18/2020 16:08:11,0 days 0 hrs 11 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+36,208798,3,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,5/18/2020 13:05:19,5/18/2020 13:07:19,5/18/2020 13:05:19,5/18/2020 13:07:19,0 days 0 hrs 2 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+37,208666,3,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/18/2020 8:53:28,5/18/2020 10:41:05,5/18/2020 10:00:00,5/18/2020 10:41:05,0 days 0 hrs 41 mins ,,WAN::WAN Primary - Modem Hang,"Issue: Primary Link down and backup no triggered. Lead site total down.
+Update: Site Up via Priamry link once Telco done reset port/session and TM Modem rebooted. For Backup link, Up via self restored. FOT also success.",Farhan
+38,209309,3,2,FJB::Guess::Guess - Acc.Seremban,Monitoring,5/19/2020 20:10:05,5/20/2020 11:33:05,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+39,209306,3,2,FJB::Guess::Guess - Suria KLCC,Monitoring,5/19/2020 19:56:34,5/20/2020 11:03:34,5/20/2020 11:00:00,5/20/2020 11:03:34,0 days 0 hrs 3 mins ,,WAN::WAN Primary - Modem Hang,"Site was total down due to primary link facing modem hang and backup unable to take over due to primary bounced (up down). Site was up after PIC rebooted primary modem and FOT success. 
+Remarks : Verify by PIC premise open at 11am.",Farhan
+40,209017,3,2,FJB::Guess::Guess - East Coast Mall,Monitoring,5/19/2020 9:43:13,5/19/2020 9:48:13,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+41,208917,3,2,FJB::Guess::Guess - IOI City Mall,Monitoring,5/19/2020 2:40:27,5/19/2020 8:16:27,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"Issue: Primary Maxis Link down, Backup link faced signal flapping. Lead site total down.
+Update: Primary Link Maxis resolved once Telco refresh session and Maxis modem rebooted while backup link Up via self restored. FOT Success.",Farhan
+42,208918,3,2,FJB::Guess::Guess - Kid Pavillion,Monitoring,5/19/2020 1:44:53,5/19/2020 1:54:53,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Issue: Primary Maxis link session hang, Backup link faced signal flapping. Lead site total down.
+Update: Primary link Maxis Up via self restored while backup link Up once Telco reset sim network. FOT success.",Farhan
+43,208919,3,2,FJB::SuperDry::SuperDry - Pavilion,Monitoring,5/19/2020 1:44:55,5/19/2020 1:54:55,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,"Issue: Primary Maxis link session hang, Backup link faced signal flapping. Lead site total down.
+Update: Primary link Maxis Up via self restored while backup link Up via self restored  well.",Farhan
+44,209340,3,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/20/2020 1:58:19,5/20/2020 4:29:19,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Site was total down due to primary link flapped and backup was bouncing due to premise closed. Primary link up by self restored (suspected session hang).  FOT to backup successful vice versa. ,Wany
+45,209331,3,2,FJB::US Polo Assn::US Polo Assn (USPA) - JPO,Monitoring,5/20/2020 0:32:19,5/20/2020 0:33:19,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary Flapping,Site was total down due to primary link was flapped for 1 min and restored via self restored. Backup link unable to take over due to short downtime of primary link. No power issue related since router uptime not refreshed.,Wany
+46,209675,3,2,FJB::Guess::Guess - Bukit Tinggi,Monitoring,5/21/2020 21:06:28,5/21/2020 21:22:28,5/21/2020 21:06:28,5/21/2020 21:22:28,0 days 0 hrs 16 mins ,,WAN::WAN Primary - Intermittent,Link up via self restored. FOT successful.,Wany
+47,209545,3,2,FJB::LaSenza::La Senza - Midvalley,Monitoring,5/21/2020 0:45:24,5/21/2020 2:16:24,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed (Power maintenance activity),Wany
+48,209601,3,2,FJB::Guess::Guess - Kid Pavillion,Monitoring,5/21/2020 11:07:53,5/21/2020 12:21:53,5/21/2020 11:07:53,5/21/2020 12:21:53,0 days 1 hrs 14 mins ,,WAN::WAN Primary - Modem Hang,Link is up once rebooted Maxis modem and VA router,Wany
+49,209544,3,2,FJB::SuperDry::Superdry - Midvalley,Monitoring,5/21/2020 0:44:57,5/21/2020 2:14:57,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed (Power maintenance activity),Wany
+50,209714,3,2,FJB::Pretty Ballerinas::Pretty Ballerinas - The Garden,Monitoring,5/22/2020 3:47:56,5/22/2020 7:21:56,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Link monitored up after telco done reset port and refresh session from their end. FOT successful.,Farhan
+51,210055,3,2,FJB::SuperDry::SuperDry - Design Village,Monitoring,5/23/2020 6:56:37,5/23/2020 11:33:37,5/23/2020 10:00:00,5/23/2020 11:33:37,0 days 1 hrs 33 mins ,,Others::Customer - Power Outage,"Root Cause: Power trip due to filter machine power plug suspected faulty
+Solution: Power stabilized once building maintenance bypass the affected device. ",Farhan
+52,210102,3,2,FJB::LaSenza::La Senza - JPO,Monitoring,5/23/2020 12:47:33,5/23/2020 12:56:33,5/23/2020 12:47:33,5/23/2020 12:56:33,0 days 0 hrs 9 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+53,210105,3,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/23/2020 13:05:19,5/23/2020 13:06:19,5/23/2020 13:05:19,5/23/2020 13:06:19,0 days 0 hrs 1 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+54,210125,3,2,FJB::LaSenza::La Senza - KLCC,Monitoring,5/23/2020 16:27:05,5/23/2020 16:58:58,5/23/2020 16:27:05,5/23/2020 16:58:58,0 days 0 hrs 31 mins ,,WAN::WAN Primary - Intermittent,Link up once Maxis modem rebooted.,Farhan
+55,210243,3,2,FJB::SuperDry::SuperDry - Southkey SOGO,Monitoring,5/24/2020 1:17:03,5/24/2020 1:18:03,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Flapping,"Link up & stable once telco reset sim network and IPSec towards FJBHQ also established. Followed by L3 upgrade latest firmware version.
+Remark: FJB client didnt have root cause Wan Primary Flapping so James closed ticket under Wan Primary intermittent. In this incident breakdown I already add root cause WAN Primary Flapping (3G-3G connection).",Farhan
+56,210250,3,2,FJB::SuperDry::SuperDry - Southkey SOGO,Monitoring,5/24/2020 2:27:03,5/24/2020 3:04:03,,,0 days 0 hrs 0 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+57,210273,3,2,FJB::Guess::Guess - Kid Queensbay Mall,Monitoring,5/24/2020 8:58:19,5/24/2020 10:31:19,5/24/2020 10:00:00,5/24/2020 10:31:19,0 days 0 hrs 31 mins ,,Others::Customer - Power Outage,Link is up once power resumed,Farhan
+58,210559,4,2,FJB::Guess::Guess - Bukit Tinggi,Monitoring,5/25/2020 22:30:28,5/26/2020 12:48:28,5/26/2020 11:00:00,5/26/2020 12:48:28,0 days 1 hrs 48 mins ,,WAN::WAN Primary - Intermittent,Primary link was intermittent lead to site total down. Primary link restored and stable after PIC rebooted Maxis modem onsite. Backup link was flapped at the same time. Backup link up via self restored.,Shalini
+59,210456,4,2,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,5/25/2020 5:51:47,5/25/2020 10:55:47,5/25/2020 10:00:00,5/25/2020 10:55:47,0 days 0 hrs 55 mins ,,WAN::WAN - IPSEC Issue,"Issue: IPSEC towards FJB HQ Hang
+Link up and stable once refresh the IPSEC and rebooted VA router",Shalini
+60,210689,4,2,FJB::Guess::Guess - Bukit Tinggi,Monitoring,5/26/2020 10:35:28,5/26/2020 10:41:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Intermittent,"Primary link was intermittent lead to site total down. Primary link restored and stable after PIC rebooted Maxis modem onsite. Backup link was flapped at the same time. Backup link up via self restored.
+This ticket has been merged into #210559 due to same issue. ",Shalini
+61,210615,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/26/2020 4:54:40,5/27/2020 5:54:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted,Shalini
+62,210683,4,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/26/2020 9:40:28,5/26/2020 10:02:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Primary link was having outage and link restored once telco issue resolved. Backup link was flapped at the same time. Backup link up via self restored.
+This ticket has been merged into #210671 due to same issue. ",Shalini
+63,210686,4,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/26/2020 10:07:28,5/26/2020 10:37:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Primary link was having outage and link restored once telco issue resolved. Backup link was flapped at the same time. Backup link up via self restored.
+This ticket has been merged into #210671 due to same issue. ",Shalini
+64,210692,4,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/26/2020 10:42:28,5/26/2020 10:53:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,"Primary link was having outage and link restored once telco issue resolved. Backup link was flapped at the same time. Backup link up via self restored.
+This ticket has been merged into #210671 due to same issue. ",Shalini
+65,210696,4,2,FJB::Guess::Guess - Bukit Tinggi,Monitoring,5/26/2020 11:05:28,5/26/2020 11:11:28,5/26/2020 11:05:28,5/26/2020 11:11:28,0 days 0 hrs 6 mins ,,WAN::WAN Primary - Intermittent,Primary link was intermittent lead to site total down. Primary link restored and stable after PIC rebooted Maxis modem onsite. Backup link was flapped at the same time. Backup link up via self restored.,Shalini
+66,210724,4,2,FJB::Guess::Guess - Bukit Tinggi,Monitoring,5/26/2020 12:48:28,5/26/2020 13:12:28,5/26/2020 12:48:28,5/26/2020 13:12:28,0 days 0 hrs 24 mins ,,WAN::WAN Primary - Intermittent,Primary link was intermittent lead to site total down. Primary link restored and stable after PIC rebooted Maxis modem onsite. Backup link was flapped at the same time. Backup link up via self restored.,Shalini
+67,210772,4,2,FJB::Guess::Guess - JPO,Monitoring,5/26/2020 17:13:32,5/26/2020 17:15:32,5/26/2020 17:13:32,5/26/2020 17:15:32,0 days 0 hrs 2 mins ,,WAN::WAN Primary - Intermittent,Primary link was flapped for 2 minutes lead to site total down. Primary link restored via self restored.,Shalini
+68,210671,4,2,FJB::Rebecca Minkoff::Rebecca Minkoff - KLCC,Monitoring,5/26/2020 8:02:28,5/26/2020 10:53:28,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage,Primary link was having outage and link restored once telco issue resolved. Backup link was flapped at the same time. Backup link up via self restored.,Shalini
+69,210845,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/27/2020 2:29:40,5/27/2020 2:32:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage, Telco rectify the network issue,Syahmina
+70,210881,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/27/2020 4:06:40,5/27/2020 4:09:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Telco Outage, Resolved after telco rectify the outage,Syahmina
+71,210984,4,3,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,5/27/2020 12:38,5/27/2020 13:45:00,,,0 days 0 hrs 0 mins ,,Others::Customer - Cabling,Verified by PIC internet working fine after tighten cable from switch to port B VA router,Syahmina
+72,211169,4,2,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,5/28/2020 11:28:47,5/28/2020 11:55:47,5/28/2020 11:28:47,5/28/2020 11:55:47,0 days 0 hrs 27 mins ,,WAN::WAN Primary - Intermittent,"Issue: Site intermittent (Maxis intermittent)
+Link up once Maxis modem rebooted. Backup link flapped at the same time lead to site went total down. Backup link up via self restored. ",Syahmina
+72,211169,4,2,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,5/28/2020 12:00:47,5/28/2020 12:25:47,5/28/2020 12:00:47,5/28/2020 12:25:47,0 days 0 hrs 25 mins ,,WAN::WAN Primary - Intermittent,"Issue: Site intermittent (Maxis intermittent)
+Link up once Maxis modem rebooted. Backup link flapped at the same time lead to site went total down. Backup link up via self restored. ",Syahmina
+72,211169,4,2,FJB::SuperDry::SuperDry - Sunway Pyramid,Monitoring,5/28/2020 12:31:47,5/28/2020 13:17:47,5/28/2020 12:31:47,5/28/2020 13:17:47,0 days 0 hrs 46 mins ,,WAN::WAN Primary - Intermittent,"Issue: Site intermittent (Maxis intermittent)
+Link up once Maxis modem rebooted. Backup link flapped at the same time lead to site went total down. Backup link up via self restored. ",Syahmina
+73,211206,4,2,FJB::Frederique Constant::Frederique Constant - GPO,Monitoring,5/28/2020 15:48:26,5/28/2020 16:14:26,5/28/2020 15:48:26,5/28/2020 16:14:26,0 days 0 hrs 26 mins ,,Others::Customer - Power Outage,The links are up once power resumed,Syahmina
+74,211207,4,2,FJB::GPO Outlet (GW6610),Monitoring,5/28/2020 15:48:40,5/28/2020 16:11:39,5/28/2020 15:48:40,5/28/2020 16:11:39,0 days 0 hrs 22 mins ,,Others::Customer - Power Outage,The links are up once power resumed,Syahmina
+75,211185,4,2,FJB::Guess::Guess - Bukit Tinggi,Monitoring,5/28/2020 13:13:28,5/28/2020 13:29:28,5/28/2020 13:13:28,5/28/2020 13:29:28,0 days 0 hrs 16 mins ,,WAN::WAN Primary - Intermittent,Primary link is self restored,Syahmina
+76,211148,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/28/2020 7:32:20,5/28/2020 8:47:18,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Session Hang,Primary link is self restored,Syahmina
+77,211561,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 8:59:40,5/30/2020 9:28:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,"Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. 
+This ticket is merged into #211513",Shalini
+78,211570,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 9:33:40,5/30/2020 10:03:40,5/30/2020 10:00:00,5/30/2020 10:03:40,0 days 0 hrs 3 mins ,,WAN::WAN Primary - Modem Hang,"Link up once YES LTE modem been rebooted. Backup link flapped at the same time  lead to site went total down. Backup link up via self restored. 
+This ticket is merged into #211513",Shalini
+79,211577,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 10:08:40,5/30/2020 10:35:40,5/30/2020 10:08:40,5/30/2020 10:35:40,0 days 0 hrs 27 mins ,,WAN::WAN Primary - Modem Hang,"Link up once YES LTE modem been rebooted. Backup link flapped at the same time lead to site went total down. Backup link up via self restored. 
+This ticket is merged into #211513",Shalini
+80,211581,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 10:40:40,5/30/2020 11:08:40,5/30/2020 10:40:40,5/30/2020 11:08:40,0 days 0 hrs 28 mins ,,WAN::WAN Primary - Modem Hang,"Link up once YES LTE modem been rebooted. Backup link flapped at the same time lead to site went total down. Backup link up via self restored. 
+This ticket is merged into #211513",Shalini
+81,211591,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 11:25:40,5/30/2020 11:27:40,5/30/2020 11:25:40,5/30/2020 11:27:40,0 days 0 hrs 2 mins ,,WAN::WAN Primary - Modem Hang,"Link up once YES LTE modem been rebooted. Backup link flapped at the same time lead to site went total down. Backup link up via self restored. 
+This ticket is merged into #211513",Shalini
+82,211590,4,2,FJB::Guess::Guess - Bukit Tinggi,Monitoring,5/30/2020 11:19:28,5/30/2020 11:56:28,5/30/2020 11:19:28,5/30/2020 11:56:28,0 days 0 hrs 37 mins ,,WAN::WAN Primary - Modem Hang,Link up once Maxis Fiber modem been rebooted. Backup link flapped at the same time lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 1:58:40,5/30/2020 2:26:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 2:31:40,5/30/2020 3:30:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 3:35:40,5/30/2020 4:02:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 4:07:40,5/30/2020 4:34:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 4:39:40,5/30/2020 5:06:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 5:11:40,5/30/2020 5:38:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 5:43:40,5/30/2020 6:43:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 6:48:40,5/30/2020 7:15:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+83,211513,4,2,FJB::Marc Jacob::Marc Jacob - KLCC,Monitoring,5/30/2020 7:20:40,5/30/2020 8:54:40,,,0 days 0 hrs 0 mins ,,WAN::WAN Primary - Modem Hang,Link up once YES LTE modem been rebooted. Backup link flapped at the same time due to store closed (signal weak) lead to site went total down. Backup link up via self restored. ,Shalini
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
