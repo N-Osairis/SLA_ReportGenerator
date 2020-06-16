@@ -447,16 +447,20 @@ if len(final_list) > 0:
     print("bar charts Created...")
     #creating excel file
     writer = pd.ExcelWriter(('{}\{}.xlsx').format(outputdirpath, client_name), engine='xlsxwriter')
+    # incident list_wan
     pd_incidentlist = pd.DataFrame(incidentlist)
-    pd_incidentlistCUS = pd.DataFrame(incidentlist_cus)
+    # incident list_customer
+    pd_incidentlist_cus = pd.DataFrame(incidentlist_cus)
 
+    # saving incident raw data in excel format--------------------------
     finaldf_table.to_excel(writer, 'main table')
     pd_incidentlist.to_excel(writer, 'incidentlist_wan')
-    pd_incidentlistCUS.to_excel(writer, 'incidentlist_customer')
+    pd_incidentlist_cus.to_excel(writer, 'incidentlist_customer')
     writer.save()
-    #==========================================================================
-    # creating word Docs
-    CW = creatWord(sla_date, sla_year, finaldf_table, outputdirpath, client_name, noOFgraph, SLA, RD)
+    # ------------------------------------------------------------------
+    # creating word Docs -----------------------------------------------
+    CW = creatWord(sla_date, sla_year, finaldf_table, outputdirpath,
+                   client_name, noOFgraph, SLA, RD)
     CW.creatingfunction_word()
-    #=========================================================================
+    # ------------------------------------------------------------------
     print("output file created in word format... ")
